@@ -1,7 +1,8 @@
 import React from 'react'
 import { RiDoubleQuotesL } from "react-icons/ri";
-import Footer from './footer';
+import Footer from './Footer';
 import Section3 from './section3';
+import CourseCard from './Pages/Second';
 
 const Secondpage = () => {
 
@@ -104,6 +105,7 @@ const Secondpage = () => {
                     <div className='h-10 w-35 bg-red-600 rounded-2xl mt-15 flex justify-center py-2  text-[15px] text-white'>Get Full Access</div>
                 </div>
                 <Footer />
+                
             </div>
         </div>
     )

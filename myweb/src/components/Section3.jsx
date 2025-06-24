@@ -22,6 +22,7 @@ const Section3 = () => {
                                 className="w-full max-w-2xl rounded-md shadow-lg"
                                 poster="./public/poster.webp"
                                 autoPlay
+                                controls
                             >
                                 <source src="./public/video.mp4" type="video/mp4" controls autoPlay muted />
                                 Your browser does not support the video tag.

@@ -11,7 +11,9 @@ const Navbar = () => {
                   <a href="/feature">
                   <h3 className='font-bold text-[#c02d28] text-[16px] coursor-pointer'>Features</h3>
                   </a>
-                  <h3 className='font-bold text-[#c02d28] text-[16px] '>Learn</h3>
+                  <a href="/learn">
+                  <h3 className='font-bold text-[#c02d28] text-[16px] coursor-pointer '>Learn</h3>
+                  </a>
                   <h3 className='font-bold text-[#c02d28] text-[16px] '>Courses</h3>
                   <h3 className='font-bold text-[#c02d28] text-[16px] '>Tutorials <span className='bg-[#04ba71] h-3 w-4 rounded px-1 text-white text-2'>New</span></h3>
                   <h3 className='font-bold text-[#c02d28] text-[16px] '>Pricing</h3>
