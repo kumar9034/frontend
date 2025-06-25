@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect,useId } from 'react';
 
-const CourseCard = ({ title, description, duration ,image, color }) => {
+const CourseCard = ({ title, description, duration ,image, color, gradientFrom, gradientTo }) => {
   const [percentage, setPercentage] = useState(0);
   const [direction, setDirection] = useState('forward'); // 'forward' or 'backward'
   const [done, setDone] = useState(false); // stop after 1 full loop
+
+  const gradientId = useId();
 
   useEffect(() => {
     if (done) return;
@@ -38,7 +40,7 @@ const CourseCard = ({ title, description, duration ,image, color }) => {
   return (
     <div className="bg-[#2a2a2a] text-white rounded-lg p-6 w-[350px] mx-auto shadow-lg text-center">
       {/* Circular Progress */}
-      <img className='absolute ml-25 mt-15' src={image} alt="" />
+      <img className='absolute ml-25 mt-10' src={image} alt="" />
       <div className="relative w-45 h-45 mx-auto mb-6">
         <svg className="w-full h-full" viewBox="0 0 36 36">
           <path
@@ -54,17 +56,17 @@ const CourseCard = ({ title, description, duration ,image, color }) => {
                a 15.9155 15.9155 0 0 1 0 31.831
                a 15.9155 15.9155 0 0 1 0 -31.831"
             fill="none"
-            stroke="url(#gradient)"
+            stroke={`url(#${gradientId})`}
             strokeWidth="3"
             strokeDasharray={strokeDasharray}
             strokeDashoffset={strokeDashoffset}
             strokeLinecap="round"
-            style={{ transition: 'stroke-dashoffset 0.2s ease' }}
+            style={{ transition: 'stroke-dashoffset 0.1s ease' }}
           />
           <defs>
-            <linearGradient id="gradient" x1="1" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="#c63629" />
-              <stop offset="100%" stopColor="#cb3e29" />
+            <linearGradient id={gradientId} x1="1" y1="0" x2="0" y2="1">
+              <stop offset="0%" stopColor={gradientFrom} />
+              <stop offset="100%" stopColor={gradientTo} />
             </linearGradient>
           </defs>
         </svg>

@@ -32,7 +32,7 @@ const Secondpage = () => {
 
             </div>
 
-            <div className='h-screen w-full  bg-[#333333] '>
+            <div className='h-auto w-full  bg-[#333333] '>
                 <Section3 />
 
                 <div className='h-77 w-full bg-[#111111] flex flex-col  items-center justify-center '>

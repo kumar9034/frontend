@@ -11,8 +11,10 @@ const Section1 = () => {
               <div className='h-10 w-50 bg-[#c02d28] rounded-2xl mt-10 text-[18px] leading-none text-white flex items-center justify-center'>
                 <h2 >Browes Our Courses</h2>
               </div>
-              <div className='h-10 w-50 bg-[#c95018] rounded-2xl mt-10 text-[18px] text-white flex items-center justify-center'>
+              <div className='h-10 w-50 bg-[#c95018] rounded-2xl mt-10 text-[18px] text-white flex items-center cursor-pointer justify-center'>
+                <a href="/learn">
                 <h2 >View Learning Paths</h2>
+                </a>
               </div>
             </div>
           </div >

@@ -8,9 +8,11 @@ const Firstpage = () => {
   return (
     <div>
       <div className='w-full h-20 flex bg-[#37140f] pt-2 border-b-2 border-[#c95018]'>
-        <img
-          className=' h-[37%] w-[23%] mt-3  text-[20%]'
-          src="../public/logo.svg" alt="" />
+       <a href="/">
+          <img
+            className=' h-[45%] w-[80%] ml-10 mt-3 mr-10 '
+            src="../public/logo.svg" alt="" />
+        </a>
         <div className='flex mt-4 ml-3 gap-10'>
           <a href="/feature">
             <h3 className='font-bold text-[#aaaaaa] text-[16px] coursor-pointer'>Features</h3>
@@ -30,11 +32,13 @@ const Firstpage = () => {
             Join Now
           </div>
           <div className='mt-5 ml-8'>
-            <h3 className='text-[18px] font-bold text-white'>Login</h3>
+           <a href="/login">
+           <h3 className='text-[18px] cursor-pointer font-bold text-white'>Login</h3>
+           </a> 
           </div>
         </div>
       </div>
-      <div className='h-screen w-full bg-[#121212]'>
+      <div className='h-auto w-full bg-[#121212]'>
         <div className='flex'>
           <div className='w-[45%]  '>
             <div className='mt-15 ml-15 flex'>
@@ -58,8 +62,10 @@ const Firstpage = () => {
               <div className='h-10 w-40 bg-[#c02d28] rounded-2xl mt-5 text-[14px] leading-none text-white flex items-center justify-center'>
                 <h2 >Browes Our Courses</h2>
               </div>
-              <div className='h-10 w-40 bg-[#c95018] rounded-2xl mt-5 text-[14px] text-white flex items-center justify-center'>
+              <div className='h-10 w-40 bg-[#c95018] rounded-2xl mt-5 cursor-pointer text-[14px] text-white flex items-center justify-center'>
+                <a href="/learn">
                 <h2 >View Learning Paths</h2>
+                </a>
               </div>
             </div>
             <div>
