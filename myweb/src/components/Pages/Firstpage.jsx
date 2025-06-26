@@ -20,17 +20,23 @@ const Firstpage = () => {
           <a href="/learn">
                   <h3 className='font-bold text-[#aaaaaa] text-[16px] coursor-pointer '>Learn</h3>
           </a>
-          <h3 className='font-bold text-[#aaaaaa] text-[16px] '>Courses</h3>
+          <a href="/courses">
+           <h3 className='font-bold text-[#aaaaaa] cursor-pointer text-[16px] '>Courses</h3>
+          </a>
           <h3 className='font-bold text-[#aaaaaa] text-[16px] '>Tutorials <span className='bg-[#04ba71] h-3 w-4 rounded px-1 text-white text-2'>New</span></h3>
-          <h3 className='font-bold text-[#aaaaaa] text-[16px] '>Pricing</h3>
+          <a href="/pricing">
+          <h3 className='font-bold text-[#aaaaaa] text-[16px] cursor-pointer '>Pricing</h3>
+          </a>
         </div>
         <div className='ml-[10%] flex'>
           <div className='mt-6'>
             <FaSearch color="white" size={24} />
           </div>
-          <div className='w-30 h-10 mt-4 ml-8 rounded-2xl bg-[#c02d28] text-white text-[15px] font-bold items-center flex justify-center'>
+          <a href="/pricing">
+          <div className='w-30 h-10 mt-4 ml-8 cursor-pointer rounded-2xl bg-[#c02d28] text-white text-[15px] font-bold items-center flex justify-center'>
             Join Now
           </div>
+          </a>
           <div className='mt-5 ml-8'>
            <a href="/login">
            <h3 className='text-[18px] cursor-pointer font-bold text-white'>Login</h3>
@@ -44,24 +50,24 @@ const Firstpage = () => {
             <div className='mt-15 ml-15 flex'>
               <video
                 className="w-full max-w-2xl rounded-md shadow-lg"
-                poster="./public/poster.webp"
+                poster="./public/features.webp"
                 controls
               >
                 <source src="./public/video.mp4" type="video/mp4" controls autoPlay muted />
                 Your browser does not support the video tag.
               </video>
-              <div className='absolute'>
-              <FaPlay size={24} color='red'/>
-              </div>
+              
             </div>
           </div>
           <div className='w-[55%]  '>
             <h1 className='text-5xl mt-13 pl-18 text-white font-bold'>Why Frontend Masters?</h1>
             <p className='text-[15px] text-white font-normal pl-18 pr-18 mt-3'>All of our courses are taught by active practitioners using the skills they teach at top companies you know like Netflix, Spotify, Google, and Stripe. In addition, our courses are regularly updated to keep pace with the latest evolutions to ensure you're learning industry best practices and the latest techniques.</p>
             <div className='flex gap-10 ml-20'>
-              <div className='h-10 w-40 bg-[#c02d28] rounded-2xl mt-5 text-[14px] leading-none text-white flex items-center justify-center'>
+              <a href="/courses">
+              <div className='h-10 w-40 bg-[#c02d28] cursor-pointer rounded-2xl mt-5 text-[14px] leading-none text-white flex items-center justify-center'>
                 <h2 >Browes Our Courses</h2>
               </div>
+              </a>
               <div className='h-10 w-40 bg-[#c95018] rounded-2xl mt-5 cursor-pointer text-[14px] text-white flex items-center justify-center'>
                 <a href="/learn">
                 <h2 >View Learning Paths</h2>

@@ -45,7 +45,9 @@ const Secondpage = () => {
                         <h1 className='text-4xl text-white font-bold  '>Upskill Your Software Development Team</h1>
                         <p className='text-[24px] mt-2 font-bold text-white'>Learn together and apply consistent standards and best practices across projects.</p>
                         <p className='text-[18px] font-sm mt-1 text-white '>Save 37% over individual plans with 10 team members or more!</p>
-                        <div className='h-13 w-41 bg-red-600  text-[14px] font-[400] flex justify-center py-2 text-white mt-7 rounded-2xl'>Browse Team Plans</div>
+                        <a href="/pricing">
+                            <div className='h-13 w-41 bg-red-600  text-[14px] font-[400] flex justify-center py-4 text-white mt-7 rounded-2xl'>Browse Team Plans</div>
+                            </a>
                     </div>
 
                     <div className='flex w-full h-auto pt-30 flex gap-5 items-center pb-10  px-10'>
@@ -102,7 +104,9 @@ const Secondpage = () => {
                         <img className='h-10 w-40' src="./public/stripe.svg" alt="" />
                         <img className='h-10 w-40' src="./public/spotify.svg" alt="" />
                     </div>
+                    <a href="/pricing">
                     <div className='h-10 w-35 bg-red-600 rounded-2xl mt-15 flex justify-center py-2  text-[15px] text-white'>Get Full Access</div>
+                    </a>
                 </div>
                 <Footer />
                 

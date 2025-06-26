@@ -8,9 +8,11 @@ const Section1 = () => {
             <h3 className='text-[25px] text-black font-bold '>In-Depth Frontend & Fullstack Courses</h3>
             <h1 className='text-[3rem] font-bold text-black'>Your Path to Senior Developer and Beyond</h1>
             <div className='flex gap-10'>
-              <div className='h-10 w-50 bg-[#c02d28] rounded-2xl mt-10 text-[18px] leading-none text-white flex items-center justify-center'>
+              <a href="/courses">
+              <div className='h-10 w-50 bg-[#c02d28] cursor-pointer rounded-2xl mt-10 text-[18px] leading-none text-white flex items-center justify-center'>
                 <h2 >Browes Our Courses</h2>
               </div>
+              </a>
               <div className='h-10 w-50 bg-[#c95018] rounded-2xl mt-10 text-[18px] text-white flex items-center cursor-pointer justify-center'>
                 <a href="/learn">
                 <h2 >View Learning Paths</h2>

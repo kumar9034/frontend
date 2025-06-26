@@ -9,16 +9,20 @@ const Navbar = () => {
             className=' h-[45%] w-[80%] ml-10 mt-3 mr-10 '
             src="../public/logo.svg" alt="" />
         </a>
-        <div className='flex mt-4 ml-3 gap-10'>
+        <div className='flex mt-4  ml-3 gap-10'>
           <a href="/feature">
             <h3 className='font-bold text-[#c02d28] text-[16px] coursor-pointer'>Features</h3>
           </a>
           <a href="/learn">
             <h3 className='font-bold text-[#c02d28] text-[16px] coursor-pointer '>Learn</h3>
           </a>
-          <h3 className='font-bold text-[#c02d28] text-[16px] '>Courses</h3>
+          <a href="/courses">
+           <h3 className='font-bold text-[#c02d28] cursor-pointer text-[16px] '>Courses</h3>
+          </a>
           <h3 className='font-bold text-[#c02d28] text-[16px] '>Tutorials <span className='bg-[#04ba71] h-3 w-4 rounded px-1 text-white text-2'>New</span></h3>
-          <h3 className='font-bold text-[#c02d28] text-[16px] '>Pricing</h3>
+          <a href="/pricing">
+          <h3 className='font-bold text-[#c02d28] text-[16px] cursor-pointer '>Pricing</h3>
+          </a>
         </div>
         <div className='ml-[10%] flex'>
           <div className='mt-6'>

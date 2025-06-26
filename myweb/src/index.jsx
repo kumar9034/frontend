@@ -4,6 +4,8 @@ import { Routes, Route } from 'react-router-dom';
 import Firstpage from './components/Pages/Firstpage';
 import Second from './components/Pages/Second';
 import Thirdpage from './components/Pages/Thirdpage';
+import Pricing from './components/Pages/Pricing';
+import Courses from './components/Pages/Courses';
 
 const index = () => {
   return (
@@ -13,6 +15,8 @@ const index = () => {
             <Route path='/feature' element={<Firstpage/>} />
             <Route path='/learn' element={<Second/>} />
             <Route path='/login' element={<Thirdpage/>} />
+            <Route path='/pricing' element={<Pricing/>} />
+            <Route path='/courses' element={<Courses/>} />
           </Routes>
     </div>
   )

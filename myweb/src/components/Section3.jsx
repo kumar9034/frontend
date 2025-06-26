@@ -8,9 +8,11 @@ const Section3 = () => {
                         <h1 className='text-[35px] mt-23 pl-18 text-white font-bold'>Learn From the Best Teachers</h1>
                         <p className='text-[15px] text-white font-normal pl-18 pr-18 mt-3'>At Frontend Masters, we pride ourselves on offering courses designed and taught by leading experts actively employing their skills at renowned companies such as Netflix, Spotify, Google, and Stripe. Our curriculum is continually refreshed to align with the most recent advancements, guaranteeing that our learners are equipped with industry-standard best practices and cutting-edge techniques.</p>
                         <div className='flex gap-10 ml-20'>
-                            <div className='h-10 w-40 bg-[#c02d28] rounded-2xl mt-5 text-[14px] leading-none text-white flex items-center justify-center'>
+                            <a href="/courses">
+                            <div className='h-10 w-40 cursor-pointer bg-[#c02d28] rounded-2xl mt-5 text-[14px] leading-none text-white flex items-center justify-center'>
                                 <h2 >Browes Our Courses</h2>
                             </div>
+                            </a>
                             <div className='h-10 w-40 bg-[#c95018] cursor-pointer rounded-2xl mt-5 text-[14px] text-white flex items-center justify-center'>
                                <a href="/learn">
                                <h2 >View Learning Paths</h2>
