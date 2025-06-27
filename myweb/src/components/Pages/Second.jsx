@@ -33,9 +33,11 @@ const Second = () => {
           <div className='mt-6'>
             <FaSearch color="white" size={24} />
           </div>
+          <a href="/pricing">
           <div className='w-30 h-10 mt-4 ml-8 rounded-2xl bg-[#c02d28] text-white text-[15px] font-bold items-center flex justify-center'>
             Join Now
           </div>
+          </a>
           <div className='mt-5 ml-8'>
            <a href="/login">
             <h3 className='text-[18px]cursor-pointer font-bold text-white'>Login</h3>
