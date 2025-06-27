@@ -24,7 +24,9 @@ const Second = () => {
           <a href="/courses">
            <h3 className='font-bold text-[#aaaaaa] cursor-pointer text-[16px] '>Courses</h3>
           </a>
-          <h3 className='font-bold text-[#aaaaaa] text-[16px] '>Tutorials <span className='bg-[#04ba71] h-3 w-4 rounded px-1 text-white text-2'>New</span></h3>
+           <a href="/tutorial">
+          <h3 className='font-bold text-[#aaaaaa] cursor-pointer text-[16px] '>Tutorials <span className='bg-[#04ba71] h-3 w-4 rounded px-1 text-white text-2'>New</span></h3>
+          </a>
           <a href="/pricing">
           <h3 className='font-bold text-[#aaaaaa] text-[16px] cursor-pointer '>Pricing</h3>
           </a>

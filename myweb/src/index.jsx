@@ -6,6 +6,7 @@ import Second from './components/Pages/Second';
 import Thirdpage from './components/Pages/Thirdpage';
 import Pricing from './components/Pages/Pricing';
 import Courses from './components/Pages/Courses';
+import Tutorial from './components/Pages/Tutorial';
 
 const index = () => {
   return (
@@ -17,6 +18,8 @@ const index = () => {
             <Route path='/login' element={<Thirdpage/>} />
             <Route path='/pricing' element={<Pricing/>} />
             <Route path='/courses' element={<Courses/>} />
+            <Route path='/courses' element={<Courses/>} />
+            <Route path='/tutorial' element={<Tutorial/>} />
           </Routes>
     </div>
   )
