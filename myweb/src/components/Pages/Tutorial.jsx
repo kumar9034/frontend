@@ -2,6 +2,8 @@ import React from 'react'
 import { FaSearch } from "react-icons/fa";
 import { CgSearch } from "react-icons/cg";
 import { FaRegChessQueen } from "react-icons/fa6";
+import { IoIosStarOutline } from "react-icons/io";
+import Secondcard from '../Secondcard';
 
 const Tutorial = () => {
     return (
@@ -101,23 +103,36 @@ const Tutorial = () => {
 
                 </div>
             </div>
-            <div className='h-screen flex justify-center  w-full bg-[#222222] pt-15  '>
-            <div className='h-65 w-[74rem] flex  justify-between bg-gradient-to-r from-[#052749] via-[#052749] to-[#070216]" '>
-                <img className='h-65 w-[30rem]' src="./public/thumb-1080.webp" alt="" />
-                <div className=' w-[70rem] h-full px-10 pt-5'>
-                    <div className='flex gap-1'>
-                    <FaRegChessQueen  size={20} color='#e6682d'/>
-                    <p className='text-sm font-bold text-[#e6682d]'>Featured</p>
-                    </div>
+            <div className='h-auto flex justify-center pb-10  w-full bg-[#222222] pt-15  '>
+                <div className='h-65 w-[74rem] flex  justify-between bg-gradient-to-r from-[#052749] via-[#052749] to-[#070216]" '>
+                    <img className='h-65 w-[30rem]' src="./public/thumb-1080.webp" alt="" />
+                    <div className=' w-[70rem] h-full px-10 pt-5'>
+                        <div className='flex gap-1'>
+                            <FaRegChessQueen size={20} color='#e6682d' />
+                            <p className='text-sm font-bold text-[#e6682d]'>Featured</p>
+                        </div>
                         <div className='h-7 text-sm py-1 px-2 w-10  border-1 border-[#8a8a8a] text-[#8a8a8a] mt-3'> CSS</div>
-                    <h1 className='text-2xl text-white font-bold mt-4'>Form Styling Essentials | The basics to modern CSS tips...</h1>
-                    <p className='text-md text-white mt-5'>In this tutorial, we'll explore using .form-groups for better organization, making sure our elements inherit font properties, when to use CSS Grid over Flexbox for form layouts plu...</p>
-                    <p className='text-sm text-[#8a8a8a] mt-5'>By <span className='font-bold'>Kevin Powell</span> </p>
+                        <h1 className='text-2xl text-white font-bold mt-4'>Form Styling Essentials | The basics to modern CSS tips...</h1>
+                        <p className='text-md text-white mt-5'>In this tutorial, we'll explore using .form-groups for better organization, making sure our elements inherit font properties, when to use CSS Grid over Flexbox for form layouts plu...</p>
+                        <p className='text-sm text-[#8a8a8a] mt-5'>By <span className='font-bold'>Kevin Powell</span> </p>
+                    </div>
                 </div>
             </div>
-            </div>
+                <div className='h-screen w-full bg-[#222222] '>
+                    <div className='flex justify-between px-10'>
+                        <div className='flex '>
+                        <IoIosStarOutline size={26}fontWeight={800} color='#f09e14'/>
+                        <h1 className='text-lg ml-3 text-white font-bold'>Member Exclusive</h1>    
+                        </div>
+                        <div>
+                            <p className='text-sm text-[#e6682d]'>view more</p>
+                        </div>
+                    </div>
+                    <div className='border-1 w-[74rem] border-[#3e3e3e] ml-10 mt-4'></div>
+                    <Secondcard/>
+                </div>
         </div>
-        
+
     )
 }
 
