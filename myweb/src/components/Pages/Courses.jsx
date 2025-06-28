@@ -3,7 +3,7 @@ import { FaSearch } from "react-icons/fa";
 import { CgSearch } from "react-icons/cg";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { IoMenu } from "react-icons/io5";
-import Card from '../card';
+import Card from '../Firstcard';
 import Footer from '../Footer'
 
 const Courses = () => {

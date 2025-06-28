@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsCcSquareFill } from "react-icons/bs";
 
-const card = ({bg , image, heading, description, time, name}) => {
+const Firstcard = ({bg , image, heading, description, time, name}) => {
     return (
         <div className='w-[35rem] h-93 bg-red-400 flex '>
             <img className='h-93 object-cover relative' src={bg} alt="" />
@@ -29,4 +29,4 @@ const card = ({bg , image, heading, description, time, name}) => {
     )
 }
 
-export default card
+export default Firstcard
