@@ -1,7 +1,7 @@
 import React from 'react'
 import { RiDoubleQuotesL } from "react-icons/ri";
 import Footer from './Footer';
-import Section3 from './section3';
+import Section3 from './Section3';
 import CourseCard from './Pages/Second';
 
 const Secondpage = () => {
