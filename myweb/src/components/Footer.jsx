@@ -7,16 +7,16 @@ const Footer = () => {
         <div className='h-76 w-full  bg-[#000000] pr-10 pl-15 pt-12 '>
             <div className='flex ml-[80%]  gap-3'>
             <FaSquareXTwitter />
-            <img className='h-9 w-10 '  src="./public/twitter.svg" alt="" />
-            <img className='h-9 w-10 ' src="./public/linkin.svg" alt="" />
-            <img className='h-9 w-10 ' src="./public/facebook-icon.svg" alt="" />
-            <img className='h-9 w-10 ' src="./public/inst.svg" alt="" />
+            <img className='h-9 w-10 '  src="/twitter.svg" alt="" />
+            <img className='h-9 w-10 ' src="/linkin.svg" alt="" />
+            <img className='h-9 w-10 ' src="/facebook-icon.svg" alt="" />
+            <img className='h-9 w-10 ' src="/inst.svg" alt="" />
             </div>
             <div className='w-full mt-4 flex justify-between '>
-                <img className='h-10 w-55' src="./public/logo.svg" alt="" />
+                <img className='h-10 w-55' src="/logo.svg" alt="" />
                 <div className='flex gap-3'>
-                <img className='' src="./public/apple.svg" alt="" />
-                <img src="./public/playstore.svg" alt="" />
+                <img className='' src="/apple.svg" alt="" />
+                <img src="/playstore.svg" alt="" />
                 </div>
             </div>
             <div className='flex justify-between mt-8 '>

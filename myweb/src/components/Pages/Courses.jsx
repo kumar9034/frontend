@@ -10,42 +10,42 @@ const Courses = () => {
 
   const cards = [{
         id:1,
-        bg:"./public/thumb.webp",
+        bg:"/thumb.webp",
         name:'Jen Kramer AnnieCannons',
         description:"Build a single-page portfolio with CSS! Learn responsive layout techniques and UI design fundamentals as you style navigation, project cards, images, and more. Give the portfolio extra polish with light and dark themes and deploy your portfolio to GitHub Pages.",
         heading:"Getting Started with CSS, v2",
         time:"3 hours, 2 minutes",
-        image:"./public/thumb (1).webp",
+        image:"/thumb (1).webp",
   },
 {
         id:2,
-        bg:"./public/bg (2).webp",
+        bg:"/bg (2).webp",
         name:'Richard Feldmanzed.dev',
         description:"Most modern languages use some form of type inference, including TypeScript, Rust, and Haskell. Learn how to build your own compiler from scratch that performs static type inference and emits WebAssembly.",
         heading:"Write a Compiler That Understands Types",
         time:"4 hours, 50 minutes",
-        image:"./public/thumb (2).webp",
+        image:"/thumb (2).webp",
   },{
         id:3,
-        bg:"./public/bg(3).webp",
+        bg:"/bg(3).webp",
         name:'Jen Kramer AnnieCannons',
         description:"Discover why C remains one of the most powerful and widely used languages today! Build a working HTTP server from scratch while learning how C handles memory, file I/O, and low-level networking.",
         heading:"C Fundamentals",
         time:"5 hours, 3 minutes",
-        image:"./public/thumb (2).webp",
+        image:"/thumb (2).webp",
   },
 {
         id:4,
-        bg:"./public/bg (4).webp",
+        bg:"/bg (4).webp",
         name:'Maximiliano FirtmanIndependent Consultant',
         description:"Code a high-performance fullstack app from scratch! Skip the framework while creating a modern web app with Vanilla JavaScript and a rock-solid backend JSON API with Go.",
         heading:"Go & Vanilla JS: Fullstack Without Frameworks",
         time:"10 hours, 11 minutes",
-        image:"./public/thumb (3).webp",
+        image:"/thumb (3).webp",
   },
 {
         id:5,
-        bg:"./public/bg (5).webp",
+        bg:"/bg (5).webp",
         name:'Steve KinneyTemporal',
         description:"Find the end-to-end type-safety strategy that works with your stack! Share TypeScript types across client and server apps. Write bullet-proof Zod schemas. Use tRPC queries and mutations. Explore Prisma for database migrations and schema generation.",
         heading:"Fullstack TypeScript, v2 (feat. Zod)",
@@ -54,48 +54,48 @@ const Courses = () => {
   },
 {
         id:6,
-        bg:"./public/bg (6).webp",
+        bg:"/bg (6).webp",
         name:'Jen Kramer AnnieCannons',
         description:"Use VS Code like a pro and build apps faster! Search, navigate, and refactor code quickly. Debug your apps without leaving the editor and automate complex or repetitive routines with custom tasks..",
         heading:"Become a VS Code Power User",
         time:"5 hours, 13 minutes",
-        image:"./public/thumb (4).webp",
+        image:"/thumb (4).webp",
   },
 {
         id:7,
-        bg:"./public/bg (7).webp",
+        bg:"/bg (7).webp",
         name:'Brian HoltNeon',
         description:"Master React 19 and create high-performance apps! Build projects using React Server Components, static site generation, and server-side rendering. Explore performance bottlenecks in the framework and leverage transitions and deferred values as you maximize performance.",
         heading:"Intermediate React, v6",
         time:"6 hours, 22 minutes",
-        image:"./public/thumb (5).webp",
+        image:"/thumb (5).webp",
   },
 {
         id:8,
-        bg:"./public/bg (8).webp",
+        bg:"/bg (8).webp",
         name:'Melkey Twitch',
         description:"Learn Go by building a real application from scratch! Create scalable APIs, connect to Postgres with Docker, implement authentication, and build a production-ready backend with Go’s most powerful features.",
         heading:"Complete Go for Professional Developers",
         time:"8 hours, 3 minutes",
-        image:"./public/thumb (7).webp",
+        image:"/thumb (7).webp",
   },
 {
         id:9,
-        bg:"./public/thumb (6).webp",
+        bg:"/thumb (6).webp",
         name:'Scott MossNetflix',
         description:"Build full-stack React apps with Next.js. Gain a deep understanding of React Server Components and Server Actions. Learn authentication, caching, static vs. dynamic routing, and deploy a professional application to Vercel.",
         heading:"Next.js Fundamentals, v4",
         time:"6 hours, 41 minutes",
-        image:"./public/thumb (8).webp",
+        image:"/thumb (8).webp",
   },
 {
         id:10,
-        bg:"./public/bg (10).webp",
+        bg:"/bg (10).webp",
         name:'Jon KupermanBloomberg',
         description:"Learn how to audit & fix website accessibility issues. Learn keyboard accessibility, focus control & ARIA roles to make websites accessible to screen readers.",
         heading:"Website Accessibility, v3",
         time:"2 hours, 19 minutes",
-        image:"./public/thumb (9).webp",
+        image:"/thumb (9).webp",
   },
 ]
   
@@ -105,7 +105,7 @@ const Courses = () => {
         <a href="/">
           <img
             className=' h-[45%] w-[80%] ml-10 mt-3 mr-10 '
-            src="../public/logo.svg" alt="" />
+            src="/logo.svg" alt="" />
         </a>
         <div className='flex mt-4 ml-3 gap-10'>
           <a href="/feature">

@@ -8,7 +8,7 @@ const Question = () => {
         <>
             <div className='h-auto w-full bg-[#333333] pb-20 '>
                 <div className='flex flex-col justify-center gap-4 items-center pt-20'>
-                    <img src="./public/Question-marks.svg" alt="" />
+                    <img src="/Question-marks.svg" alt="" />
                     <h1 className='text-5xl font-bold text-white '>Frequently Asked Questions</h1>
                 </div>
                 <div className='border-1 border-white w-[90%] ml-15 mt-15 '></div>

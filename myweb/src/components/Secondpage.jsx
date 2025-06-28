@@ -17,13 +17,13 @@ const Secondpage = () => {
                     <h1 className='text-white font-bold text-[2rem] mt-20  ml-20'>Gain Practical Tech Skills from Experts You Can Trust</h1>
                     <p className='text-white text-[15px] ml-5'>JavaScript, React, and TypeScript to Node.js and Backend (Go, Git, Docker, & More)</p>
                     <div className='flex gap-13 mt-17 ml-20'>
-                        <img className='w-20' src="./public/javascript.svg" alt="" />
-                        <img className='w-20' src="./public/react.svg" alt="" />
-                        <img className='w-20' src="./public/typescript.svg" alt="" />
-                        <img className='w-20' src="./public/database.svg" alt="" />
-                        <img className='w-20' src="./public/node js.svg" alt="" />
-                        <img className='w-20' src="./public/nextjs.svg" alt="" />
-                        <img className='w-20' src="./public/go.svg" alt="" />
+                        <img className='w-20' src="/javascript.svg" alt="" />
+                        <img className='w-20' src="/react.svg" alt="" />
+                        <img className='w-20' src="/typescript.svg" alt="" />
+                        <img className='w-20' src="/database.svg" alt="" />
+                        <img className='w-20' src="/node js.svg" alt="" />
+                        <img className='w-20' src="/nextjs.svg" alt="" />
+                        <img className='w-20' src="/go.svg" alt="" />
                     </div>
                     <div className='pt-20 flex justify-center items-center ml-20 mb-20'>
                         <p className='text-[15px] font-bold text-white '>Popular Learning Paths: <span className='text-[#fc706b]'>Beginner </span>• <span className='text-[#fc706b]'>Professional</span> • <span className='text-[#fc706b]'>Fullstack</span></p>
@@ -56,7 +56,7 @@ const Secondpage = () => {
                             <p className='text-white flex-wraps text-[16px] mx-6 my-3  '>When, without any prompting; your manager offers you a Frontend Masters subscription you know you picked a good place to work 😍</p>
                             <div className='flex '>
                                 <div className='h-20 w-20 bg-red-200 rounded-full mx-6 mt-9'>
-                                    <img className='rounded-full object-cover' src="./public/girl.jpg" alt="" />
+                                    <img className='rounded-full object-cover' src="/girl.jpg" alt="" />
                                 </div>
                                 <div className='mt-11 leading-none'>
                                     <h2 className='text-white font-bold text-[20px]'>Sarah O'Brien</h2>
@@ -70,7 +70,7 @@ const Secondpage = () => {
                             <p className='text-white flex-wraps text-[16px] mx-6 my-3  '>Frontend Masters I’ve had a license for at least 4 years now. Got one for all my team when I was a team lead. The content is first class and the price is very cheap especially considering what you would pay to take that workshop in person.</p>
                             <div className='flex '>
                                 <div className='h-20 w-20 bg-red-200 rounded-full mx-6 mt-9'>
-                                    <img className='rounded-full object-cover' src="./public/second-girl.jpg" alt="" />
+                                    <img className='rounded-full object-cover' src="/second-girl.jpg" alt="" />
                                 </div>
                                 <div className='mt-11 leading-none'>
                                     <h2 className='text-white font-bold text-[20px]'>Debbie O'Brien</h2>
@@ -84,7 +84,7 @@ const Secondpage = () => {
                             <p className='text-white flex-wraps text-[16px] mx-6 my-3  '>Our team got a Frontend Masters subscription and it has been super helpful, especially for the new devs on our team who aren't as familiar with frontend technologies. I highly recommend giving them a try. 🙂</p>
                             <div className='flex '>
                                 <div className='h-20 w-20 bg-red-200 rounded-full mx-6 mt-9'>
-                                    <img className='rounded-full object-cover' src="./public/boy.jpg" alt="" />
+                                    <img className='rounded-full object-cover' src="/boy.jpg" alt="" />
                                 </div>
                                 <div className='mt-11 leading-none'>
                                     <h2 className='text-white font-bold text-[20px]'>Augustus</h2>
@@ -99,10 +99,10 @@ const Secondpage = () => {
                     <h1 className='text-4xl font-bold text-white '>Learn Straight from Experts Who Shape the Modern Web</h1>
                     <p className='text-2xl font-bold text-white '>Our courses are taught by developers from these top companies (and more)</p>
                     <div className='h-10 w-full  flex pl-71 gap-10 mt-12'>
-                        <img className='h-10 w-40 ' src="./public/microsoft.svg" alt="" />
-                        <img className='h-10 w-40' src="./public/netflix.svg" alt="" />
-                        <img className='h-10 w-40' src="./public/stripe.svg" alt="" />
-                        <img className='h-10 w-40' src="./public/spotify.svg" alt="" />
+                        <img className='h-10 w-40 ' src="/microsoft.svg" alt="" />
+                        <img className='h-10 w-40' src="/netflix.svg" alt="" />
+                        <img className='h-10 w-40' src="/stripe.svg" alt="" />
+                        <img className='h-10 w-40' src="/spotify.svg" alt="" />
                     </div>
                     <a href="/pricing">
                     <div className='h-10 w-35 bg-red-600 rounded-2xl mt-15 flex justify-center py-2  text-[15px] text-white'>Get Full Access</div>

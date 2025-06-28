@@ -12,7 +12,7 @@ const App = () => {
     <>
     
     <div className='h-auto w-full flex '>
-        <img className='object-cover relative ' src="./public/photoHero.webp" alt="" />
+        <img className='object-cover relative ' src="/photoHero.webp" alt="" />
       <div className=''>
       </div>
       <div className='flex absolute'>

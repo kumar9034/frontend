@@ -12,7 +12,7 @@ const Pricing = () => {
                 <a href="/">
                     <img
                         className=' h-[45%] w-[80%] ml-10 mt-3 mr-10 '
-                        src="../public/logo.svg" alt="" />
+                        src="/logo.svg" alt="" />
                 </a>
                 <div className='flex mt-4 ml-3 gap-10'>
                     <a href="/feature">
@@ -54,19 +54,19 @@ const Pricing = () => {
                 </div>
                 <div className='flex h-20 items-center  ml-104 mt-13'>
                     <div className='h-15 w-15 rounded-full bg-[#484848] p-[0.1%] relative'>
-                        <img className='rounded-full object-cover' src="./public/third.jpg" alt="" />
+                        <img className='rounded-full object-cover' src="/third.jpg" alt="" />
                     </div>
                     <div className='h-15 w-15 rounded-full bg-[#484848] p-[0.1%]  absolute ml-10 z-9'>
-                        <img className='rounded-full object-cover' src="./public/secondboy.jpg" alt="" />
+                        <img className='rounded-full object-cover' src="/secondboy.jpg" alt="" />
                     </div>
                     <div className='h-15 w-15 rounded-full bg-[#484848] p-[0.1%]  absolute ml-20 z-10'>
-                        <img className='rounded-full object-cover' src="./public/secondgirl.jpg" alt="" />
+                        <img className='rounded-full object-cover' src="/secondgirl.jpg" alt="" />
                     </div>
                     <div className='h-15 w-15 rounded-full bg-[#484848] p-[0.1%]  absolute ml-30 z-99'>
-                        <img className='rounded-full object-cover' src="./public/boys.jpg" alt="" />
+                        <img className='rounded-full object-cover' src="/boys.jpg" alt="" />
                     </div>
                     <div className='h-15 w-15 rounded-full bg-[#484848] p-[0.1%]  absolute ml-40 z-99'>
-                        <img className='rounded-full object-cover' src="./public/girls.webp" alt="" />
+                        <img className='rounded-full object-cover' src="/girls.webp" alt="" />
                     </div>
                     <div className='flex flex-col h-20 mt-8 ml-44 gap-1 '>
                         <div className='flex gap-1'>

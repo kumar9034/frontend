@@ -49,13 +49,13 @@ const Section3 = () => {
                     </div>
                     <div className='w-full leading-none mt-21'>
                         <div className=''>
-                            <img className='h-15 w-32  ml-15' src="./public/star.png" alt="" />
+                            <img className='h-15 w-32  ml-15' src="/star.png" alt="" />
                             <p className='text-[18px] text-white ml-10 top-0 '>Industry Leading Experts</p>
                         </div>
                     </div>
                     <div className='w-full leading-none mt-16'>
                         <div className=''>
-                            <img className='h-20 w-28  ml-20' src="./public/interactive.webp" alt="" />
+                            <img className='h-20 w-28  ml-20' src="/interactive.webp" alt="" />
                             <p className='text-[15px] text-white ml-12 top-0 '>Live Interactive Workshops</p>
                         </div>
                     </div>

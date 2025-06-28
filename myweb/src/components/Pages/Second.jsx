@@ -12,7 +12,7 @@ const Second = () => {
         <a href="/">
           <img
             className=' h-[45%] w-[80%] ml-10 mt-3 mr-10 '
-            src="../public/logo.svg" alt="" />
+            src="/logo.svg" alt="" />
         </a>
         <div className='flex mt-4 ml-3 gap-10'>
           <a href="/feature">
@@ -49,7 +49,7 @@ const Second = () => {
       </div>
       <div className='h-auto w-full bg-[#222222]'>
         <div className='flex flex-col gap-5 pt-12 justify-center items-center '>
-          <img src="./public/path.svg" alt="" />
+          <img src="/path.svg" alt="" />
           <h1 className='text-5xl  text-white font-bold '>Learning Paths</h1>
           <p className='text-16 text-white '>Guided paths to expand your abilities as a well-rounded engineer!</p>
         </div>

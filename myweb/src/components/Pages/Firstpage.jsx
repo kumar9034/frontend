@@ -11,7 +11,7 @@ const Firstpage = () => {
        <a href="/">
           <img
             className=' h-[45%] w-[80%] ml-10 mt-3 mr-10 '
-            src="../public/logo.svg" alt="" />
+            src="/logo.svg" alt="" />
         </a>
         <div className='flex mt-4 ml-3 gap-10'>
           <a href="/feature">
@@ -96,13 +96,13 @@ const Firstpage = () => {
           </div>
           <div className='w-full leading-none mt-21'>
             <div className=''>
-              <img className='h-15 w-32  ml-15' src="./public/star.png" alt="" />
+              <img className='h-15 w-32  ml-15' src="/star.png" alt="" />
               <p className='text-[18px] text-white ml-10 top-0 '>Industry Leading Experts</p>
             </div>
           </div>
           <div className='w-full leading-none mt-16'>
             <div className=''>
-              <img className='h-20 w-28  ml-20' src="./public/interactive.webp" alt="" />
+              <img className='h-20 w-28  ml-20' src="/interactive.webp" alt="" />
               <p className='text-[18px] text-white ml-12 top-0 '>Live Interactive Workshops</p>
             </div>
           </div>
@@ -120,12 +120,12 @@ const Firstpage = () => {
             <p className='text-[#e6e6e6]'>Pick your goal, and get a recommended set of courses complete with electives, editor notes and progress tracking.</p>
           </div>
           <div className='w-[70%] '>
-            <img className=' pt-13 pb-15 w-[82%] ml-25' src="./public/learning-paths.webp" alt="" />
+            <img className=' pt-13 pb-15 w-[82%] ml-25' src="/learning-paths.webp" alt="" />
           </div>
         </div>
         <div className='h-screen w-full bg-[#3e3e3e] flex '>
           <div className='w-[62%]  h-full '>
-            <img className='pt-19 pl-13 ' src="./public/player.webp" alt="" />
+            <img className='pt-19 pl-13 ' src="/player.webp" alt="" />
           </div>
           <div className='w-[38%]  h-full pt-8 pl-15 pr-15  ' >
             <h1 className='text-2xl text-white font-bold mt-6 '>Custom Built Video Player with 4K Video</h1>
@@ -146,12 +146,12 @@ const Firstpage = () => {
             <p className='mt-3 text-white leading-5.5 '>Always know where you left off when you come back!</p>
           </div>
           <div className='w-[62%]  h-full '>
-            <img className='pt-17  pr-17' src="./public/dashboard.webp" alt="" />
+            <img className='pt-17  pr-17' src="/dashboard.webp" alt="" />
           </div>
         </div>
         <div className='h-screen w-full bg-[#3e3e3e] flex '>
           <div className='w-[62%]  h-full '>
-            <img className='pt-10  pl-16' src="./public/workshops.webp" alt="" />
+            <img className='pt-10  pl-16' src="/workshops.webp" alt="" />
           </div>
           <div className='w-[38%]  h-full pt-20 pl-15 pr-15  ' >
             <h1 className='text-2xl text-white font-bold mt-6 '>Live-Streamed Workshops and Chatroom</h1>
@@ -171,17 +171,17 @@ const Firstpage = () => {
             <p className='mt-3 text-white leading-5.5 '>After the course, you can one-click share that you’ve completed the course with your friends and colleagues!</p>
           </div>
           <div className='w-[62%]  h-full '>
-            <img className='pt-13  pr-16' src="./public/profile.png" alt="" />
+            <img className='pt-13  pr-16' src="/profile.png" alt="" />
           </div>
         </div>
         <div className='h-93 w-full bg-[#1f1f1f] flex flex-col pt-16 items-center'>
           <h1 className='text-4xl font-bold text-white '>Learn Straight from Experts Who Shape the Modern Web</h1>
           <p className='text-2xl font-bold text-white '>200+ Courses Curated into 18 Learning Paths</p>
           <div className='h-10 w-full  flex pl-71 gap-10 mt-12'>
-            <img className='h-10 w-40 ' src="./public/microsoft.svg" alt="" />
-            <img className='h-10 w-40' src="./public/netflix.svg" alt="" />
-            <img className='h-10 w-40' src="./public/stripe.svg" alt="" />
-            <img className='h-10 w-40' src="./public/spotify.svg" alt="" />
+            <img className='h-10 w-40 ' src="/microsoft.svg" alt="" />
+            <img className='h-10 w-40' src="/netflix.svg" alt="" />
+            <img className='h-10 w-40' src="/stripe.svg" alt="" />
+            <img className='h-10 w-40' src="/spotify.svg" alt="" />
           </div>
           <a href="/pricing">
           <div className='h-10 w-35 bg-red-600 rounded-2xl cursor-pointer mt-15 flex justify-center py-2  text-[15px] text-white'>join now</div>
