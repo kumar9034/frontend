@@ -2,8 +2,8 @@ import React, { useState, useEffect,useId } from 'react';
 
 const CourseCard = ({ title, description, duration ,image, color, gradientFrom, gradientTo }) => {
   const [percentage, setPercentage] = useState(0);
-  const [direction, setDirection] = useState('forward'); // 'forward' or 'backward'
-  const [done, setDone] = useState(false); // stop after 1 full loop
+  const [direction, setDirection] = useState('forward'); 
+  const [done, setDone] = useState(false); 
 
   const gradientId = useId();
 
@@ -29,7 +29,7 @@ const CourseCard = ({ title, description, duration ,image, color, gradientFrom, 
           }
         }
       });
-    }, 30); // speed
+    }, 30); 
 
     return () => clearInterval(interval);
   }, [direction, done]);
