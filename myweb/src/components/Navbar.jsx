@@ -7,7 +7,7 @@ const Navbar = () => {
         <a href="/">
           <img
             className=' h-[45%] w-[80%] ml-10 mt-3 mr-10 '
-            src="./logo.svg" alt="" />
+            src="/logo.svg" alt="" />
         </a>
         <div className='flex mt-4  ml-3 gap-10'>
           <a href="/feature">
