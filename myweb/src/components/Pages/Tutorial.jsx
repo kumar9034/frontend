@@ -4,8 +4,182 @@ import { CgSearch } from "react-icons/cg";
 import { FaRegChessQueen } from "react-icons/fa6";
 import { IoIosStarOutline } from "react-icons/io";
 import Secondcard from '../Secondcard';
+import { FaFireFlameCurved } from "react-icons/fa6";
+import { FaBullhorn } from "react-icons/fa";
+import Footer from '../Footer';
+import { SiCss3 } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io5";
 
 const Tutorial = () => {
+
+    const cards = [{
+        id: 1,
+        name : 'Web Dev Simplified',
+        title: "Vitest Crash Course",
+        image: "./public/thumb-270.webp",
+        language : "Testing",
+        language2 : "React"
+    },
+{
+        id: 2,
+        name : 'Web Dev Simplified',
+        title: "Concurrency in a Go web application",
+        image: "./public/thumb-270 (1).webp",
+        language : "Go",
+        language2 : "REACT"
+        
+    },
+{
+        id: 3,
+        name : ' Melkey',
+        title: "Concurrency Locking & SQL Query Timeouts in Golang",
+        image: "./public/thumb-270 (3).webp",
+        language : "DATABASE",
+        language2 : "GO"
+    },
+{
+        id: 4,
+        name : 'Web Dev Simplified',
+        title: "Strategies for margins, padding, gaps, and more",
+        image: "./public/thumb-270.webp",
+        language : "CSS",
+        language2 : "Javascript"
+    }]
+    const Populer = [{
+        id: 1,
+        name : 'Maximiliano Firtman',
+        title: "JavaScript Promises from Scratch",
+        image: "./public/thumb-270 (5).webp",
+        language : "APIs",
+        language2 : "Javascript"
+    },
+{
+        id: 2,
+        name : 'Web Dev Simplified',
+        title: "How To Handle Internationalization Like A...",
+        image: "./public/thumb-270 (6).webp",
+        language : "Typescript",
+        language2 : "javascript"
+        
+    },
+{
+        id: 3,
+        name : 'Kevin Powell',
+        title: "5 CSS Secrets every developer should know",
+        image: "./public/thumb-270 (7).webp",
+        language : "Creative Coding",
+        language2 : "CSS"
+    },
+{
+        id: 4,
+        name : 'Kevin Powell',
+        title: "Create a clean, modern navigation with HTML",
+        image: "./public/thumb-270 (8).webp",
+        language : "CSS",
+        language2 : "Javascript"
+    }]
+
+    const latest = [{
+        id: 1,
+        name : 'Maximiliano Firtman',
+        title: "JavaScript Promises from Scratch",
+        image: "./public/thumb-270 (5).webp",
+        language : "APIs",
+        language2 : "Javascript"
+    },
+{
+        id: 2,
+        name : 'Web Dev Simplified',
+        title: "Stop Writing Bad Abstractions - Clean Code...",
+        image: "./public/thumb-270 (9).webp",
+        language : "React",
+        language2 : "javascript"
+        
+    },
+{
+        id: 3,
+        name : 'Kevin Powell',
+        title: "Make an animated glowing border effect with CSS",
+        image: "./public/thumb-270 (10).webp",
+        language : "Creative Coding",
+        language2 : "CSS"
+    },
+{
+        id: 4,
+        name : 'Web Dev Simplified',
+        title: "How To Load Images Like A Pro",
+        image: "./public/thumb-270 (11).webp",
+        language : "Performance",
+        language2 : "Javascript"
+    }]
+
+    const CSS =  [{
+        id: 1,
+        name : 'Kevin Powell',
+        title: "5 CSS Secrets every developer should know",
+        image: "./public/thumb-270 (12).webp",
+        language : "creative coding",
+        language2 : "CSS"
+    },
+{
+        id: 2,
+        name : 'Kevin Powell',
+        title: "Animate height: auto with interpolate-size and calc-",
+        image: "./public/thumb-270 (13).webp",
+        language : "Creative",
+        language2 : "CSS"
+        
+    },
+{
+        id: 3,
+        name : 'Kevin Powell',
+        title: "Can I clone this rotating, gradient, inner glow effect?",
+        image: "./public/thumb-270 (14).webp",
+        language : "Creative Coding",
+        language2 : "CSS"
+    },
+{
+        id: 4,
+        name : 'Kevin Powell',
+        title: "Create a Frosted Glass Effect with a Gradient Border",
+        image: "./public/thumb-270 (15).webp",
+        language : "Performance",
+        language2 : "Javascript"
+    }]
+
+    const JavaScript = [{
+        id: 1,
+        name : ' Web Dev Simplified',
+        title: "Debounce vs Throttle",
+        image: "./public/thumb-270 (16).webp",
+        language : "Performance",
+        language2 : "JavaScript"
+    },
+{
+        id: 2,
+        name : 'Web Dev Simplified',
+        title: "How To Create A Search Bar In JavaScript",
+        image: "./public/thumb-270 (17).webp",
+        language : "Javascript",
+        language2 : "HTML"
+        
+    },
+{
+        id: 3,
+        name : 'Web Dev Simplified',
+        title: "How To Create An Animated Image Carousel With",
+        image: "./public/thumb-270 (18).webp",
+        language : "Javascript",
+        language2 : "CSS"
+    },
+{
+        id: 4,
+        name : 'Chris Coyier',
+        title: "Image Gallery Web Component - Part 1",
+        image: "./public/thumb-270 (19).webp",
+        language : "CSS",
+        language2 : "Javascript"
+    }]
     return (
         <div>
             <div className='w-full h-20 flex bg-[#37140f] pt-2 border-b-2 border-[#c95018]'>
@@ -103,7 +277,7 @@ const Tutorial = () => {
 
                 </div>
             </div>
-            <div className='h-auto flex justify-center pb-10  w-full bg-[#222222] pt-15  '>
+            <div className='h-auto flex justify-center pb-10   w-full bg-[#222222] pt-15  '>
                 <div className='h-65 w-[74rem] flex  justify-between bg-gradient-to-r from-[#052749] via-[#052749] to-[#070216]" '>
                     <img className='h-65 w-[30rem]' src="./public/thumb-1080.webp" alt="" />
                     <div className=' w-[70rem] h-full px-10 pt-5'>
@@ -118,7 +292,7 @@ const Tutorial = () => {
                     </div>
                 </div>
             </div>
-                <div className='h-screen w-full bg-[#222222] '>
+                <div className='h-auto pb-20 w-full bg-[#222222] '>
                     <div className='flex justify-between px-10'>
                         <div className='flex '>
                         <IoIosStarOutline size={26}fontWeight={800} color='#f09e14'/>
@@ -129,8 +303,108 @@ const Tutorial = () => {
                         </div>
                     </div>
                     <div className='border-1 w-[74rem] border-[#3e3e3e] ml-10 mt-4'></div>
-                    <Secondcard/>
+                    <div className='flex gap-5 pl-10'>
+                    {cards.map((item)=>(<div  key={item.id}>
+                        <Secondcard  
+                        image={item.image}
+                        language={item.language}
+                        language2={item.language2}
+                        name={item.name}
+                        title={item.title} />
+                    </div>
+                        
+                    ))}
+                    </div>
+                    <div className='flex justify-between px-10 mt-18'>
+                        <div className='flex '>
+                        <FaFireFlameCurved size={26}fontWeight={800} color='#f09e14'/>
+                        <h1 className='text-lg ml-3 text-white font-bold'>Popular</h1>    
+                        </div>
+                        <div>
+                            <p className='text-sm text-[#e6682d]'>view more</p>
+                        </div>
+                    </div>
+                    <div className='border-1 w-[74rem] border-[#3e3e3e] ml-10 mt-4'></div>
+                    <div className='flex gap-5 pl-10'>
+                        {Populer.map((item)=>(<div  key={item.id}>
+                        <Secondcard  
+                        image={item.image}
+                        language={item.language}
+                        language2={item.language2}
+                        name={item.name}
+                        title={item.title} />
+                    </div>
+                        
+                    ))}
+                    </div>
+                    <div className='flex justify-between px-10 mt-18'>
+                        <div className='flex '>
+                        <FaBullhorn size={26}fontWeight={800} color='white'/>
+                        <h1 className='text-lg ml-3 text-white font-bold'>Latest</h1>    
+                        </div>
+                        <div>
+                            <p className='text-sm text-[#e6682d]'>view more</p>
+                        </div>
+                    </div>
+                    <div className='border-1 w-[74rem] border-[#3e3e3e] ml-10 mt-4'></div>
+                    <div className='flex gap-5 pl-10'>
+                        {latest.map((item)=>(<div  key={item.id}>
+                        <Secondcard  
+                        image={item.image}
+                        language={item.language}
+                        language2={item.language2}
+                        name={item.name}
+                        title={item.title} />
+                    </div>
+                        
+                    ))}
+                    </div>
+                    <div className='flex justify-between px-10 mt-18'>
+                        <div className='flex '>
+                        <SiCss3 size={26}fontWeight={800} color='#663399'/>
+                        <h1 className='text-lg ml-3 text-white font-bold'>CSS</h1>    
+                        </div>
+                        <div>
+                            <p className='text-sm text-[#e6682d]'>view more</p>
+                        </div>
+                    </div>
+                    <div className='border-1 w-[74rem] border-[#3e3e3e] ml-10 mt-4'></div>
+                    <div className='flex gap-5 pl-10'>
+                        {CSS.map((item)=>(<div  key={item.id}>
+                        <Secondcard  
+                        image={item.image}
+                        language={item.language}
+                        language2={item.language2}
+                        name={item.name}
+                        title={item.title} />
+                    </div>
+                        
+                    ))}
+                    </div>
+                    <div className='flex justify-between px-10 mt-18'>
+                        <div className='flex '>
+                        <IoLogoJavascript size={26}fontWeight={800} color='#f09e14'/>
+                        <h1 className='text-lg ml-3 text-white font-bold'>JavaScript</h1>    
+                        </div>
+                        <div>
+                            <p className='text-sm text-[#e6682d]'>view more</p>
+                        </div>
+                    </div>
+                    <div className='border-1 w-[74rem] border-[#3e3e3e] ml-10 mt-4'></div>
+                    <div className='flex gap-5 pl-10'>
+                        {JavaScript.map((item)=>(<div  key={item.id}>
+                        <Secondcard  
+                        image={item.image}
+                        language={item.language}
+                        language2={item.language2}
+                        name={item.name}
+                        title={item.title} />
+                    </div>
+                        
+                    ))}
+                    </div>
                 </div>
+                <Footer/>
         </div>
 
     )
