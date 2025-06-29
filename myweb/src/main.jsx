@@ -5,7 +5,9 @@ import './index.css'
 import Index from './index.jsx'
 
 createRoot(document.getElementById('root')).render(
- <BrowserRouter>
-    <Index />
-  </BrowserRouter>
+ <React.StrictMode>
+    <BrowserRouter>
+      <Index />
+    </BrowserRouter>
+  </React.StrictMode>
 )
