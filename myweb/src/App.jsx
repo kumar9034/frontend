@@ -11,10 +11,9 @@ const App = () => {
   return (
     <>
     
-    <div className='h-auto w-full flex '>
-        <img className='object-cover relative ' src="/photoHero.webp" alt="" />
-      <div className=''>
-      </div>
+    <div className='hero h-auto w-full flex  '>
+        <img className='image1 object-cover relative ' src="/photoHero.webp" alt="" />
+      
       <div className='flex absolute'>
         <Navbar/>
         <Section1/>

@@ -1,1 +1,334 @@
 @import "tailwindcss";
+
+@media (max-width: 340px) {
+  .hero {
+    height: 100vh;
+    width: 100%;
+  }
+   .image1 {
+    height: 100vh;
+    
+    object-fit:cover;
+  }
+  .menubar{
+    display: block;
+    margin-left: 17px;
+
+  }
+  .logo-contain{
+    padding-bottom: 5%;
+  }
+  .logo{
+    height: 55%;
+    width: 70%;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .navbar {
+    height: 70px;
+    width: 90wv;
+    background-color: #37140f;
+  }
+  .navbar h3{
+    display: none;
+
+  }
+  .menu{
+    display: block;
+    margin-left: 0px;
+    margin-top: 20px;
+
+  }
+  
+  .search{
+    font-size: 5px;
+    display: none;
+  }
+  .join{
+    font-size: 10px;
+    width: 70px;
+    height: 25px;
+    margin-top: 17px;
+    margin-left: 5px;
+    font-size: 0.rem;
+  }
+  .join-contain{
+    margin-left: 15px;
+    padding-right: 5px;
+  }
+  .login{
+    display: none;
+  }
+  .text-heading{
+    height: 50%;
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 40%;
+  }
+  .text-heading h3{
+    font-size: 1rem;
+    color: white
+  }
+  .text-heading h1{
+    font-size: 2rem;
+    color: white;
+  }
+  .btn-courses{
+    height: 2.7rem;
+    width: 12rem;
+    margin-top: 10%;
+    font-size: 1rem;
+    margin-left: -5%;
+  }
+  .contain-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 2rem;
+  }
+  .contain-description{
+    display: none;
+  }
+  .secondsection{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding-top: 10%;
+  }
+  .heading-upper{
+    font-size: 1rem;
+    width: 75%;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .practical{
+    color: white;
+  text-align: center;
+  font-size: 1rem;
+  max-width: 400px; /* Control wrapping */
+  margin: 0 auto;   /* Center the div */
+  line-height: 1.5;
+  }
+  .language{
+    font-size: 0.9rem;
+    margin-left: 2%;
+    padding: 5% 6%;
+    color: white;
+  text-align: center;
+  max-width: 400px; 
+  margin: 0 auto;   
+  line-height: 1.5;
+  }
+  .contain-icon{
+    width: 100%;
+    height: auto;
+    margin-left: 5%;
+    gap: 10%;
+    padding: 0 5% ;
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .icon{
+    width: 15%;
+    margin-top: 4%;
+  }
+  .section-down{
+   color: white;
+  text-align: center;
+  font-size: 18px;
+  max-width: 400px; /* Control wrapping */
+  margin: 0 auto;   /* Center the div */
+  line-height: 1.5;
+  }
+  .container-video{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .contain-video{
+    width: 15rem;
+    height: auto;
+  
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 5%;
+    
+  }
+  .vd{
+    width: 18rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 1px;
+  }
+  .contain-video video{
+    width: 100%;
+    height: 20rem;
+    margin-top: 5%;
+  }
+  .description{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+  max-width: 400px; /*Control wrapping */
+   margin: 0 auto;  /* Center the div */
+  line-height: 1.5;
+  }
+  .description h1{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 25%;
+    padding-left: 5%;
+  }
+  .description p{
+    font-size: 0.9rem;
+    color: white;
+    padding: 5% 12%;
+    margin-top: 2%;
+  }
+  .performance{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+    .p {
+      margin: 5px 5px;
+      font-size: 25px;
+
+    }
+    .icons {
+      width: 35%;
+      height: 35%;
+      margin-left: 5%;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #ff3e3e, #ff6a00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+    }
+    .h2{
+      height: auto;
+      width: 100%;
+      font-size: 40px;
+      margin: 5px 0;
+      font-weight: bold;
+      background: linear-gradient(90deg, #ff3e3e, #ff6a00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .heading2 {
+      height: auto;
+      width: 100%;
+      background-color: #111111;
+      display: flex;
+      padding: 20% 10%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 400px; /*Control wrapping */
+      margin: 0 auto;  /* Center the div */
+      line-height: 1.5;
+      text-align: center;
+    }
+    .heading2 h1{
+      font-size: 1.5rem;
+    }
+
+    .heading3{
+      width: 100%;
+      height: auto;
+      display: flex;
+      padding: 5% 5%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 400px; /*Control wrapping */
+      margin: 0 auto;  /* Center the div */
+      line-height: 1.5;
+      text-align: center;
+    }
+    .heading3 h1{
+      font-size: 1.5rem;
+      color: white;
+      font-weight: bold;
+
+    }
+    .inner-heading{
+      width: 100%;
+      height: auto;
+      display: flex;
+      
+    }
+    .heading3 p{
+      font-size: 1.15rem;
+      margin-top: 10px;
+    }
+    .btn-2{
+      background: linear-gradient(90deg, #ff3e3e, #ff6a00);
+      border: none;
+      width: 15rem;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+      font-size: 0.9rem;
+      padding: 15px 20px;
+      text-align: center;
+      text-decoration: none;
+      transition:  0.3s ease;
+    }
+    .contain-cards{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+      height: auto;
+      padding: 10% 1px;
+    }
+    .card{
+      width: 25rem;
+      height: auto;
+      background-color: #111111;
+      border-radius: 10px;
+      padding: 2px;
+      padding-bottom: 5%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .heading4{
+      height: auto;
+      width: 100%;
+      background-color: #1f1f1f;
+      display: flex;
+      flex-direction: column;
+      padding: 10% 13%;
+      align-items: center;
+    }
+    .heading4 h1{
+      font-size: 1.4rem;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+    .heading4 p{
+      font-size: 1.1rem;
+      color: white;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+}
