@@ -98,17 +98,17 @@ const Secondpage = () => {
                 <div className='heading4 h-93 w-full bg-[#1f1f1f] flex flex-col pt-16 items-center'>
                     <h1 className='text-4xl font-bold text-white '>Learn Straight from Experts Who Shape the Modern Web</h1>
                     <p className='text-2xl font-bold text-white '>Our courses are taught by developers from these top companies (and more)</p>
-                    <div className='h-10 w-full  flex pl-71 gap-10 mt-12'>
-                        <img className='h-10 w-40 ' src="/microsoft.svg" alt="" />
-                        <img className='h-10 w-40' src="/netflix.svg" alt="" />
-                        <img className='h-10 w-40' src="/stripe.svg" alt="" />
-                        <img className='h-10 w-40' src="/spotify.svg" alt="" />
+                    <div className='logoes h-10 w-full  flex pl-71 gap-10 mt-12'>
+                        <img className='a h-10 w-40 ' src="/microsoft.svg" alt="" />
+                        <img className='b h-10 w-40' src="/netflix.svg" alt="" />
+                        <img className='c h-10 w-40' src="/stripe.svg" alt="" />
+                        <img className='d h-10 w-40' src="/spotify.svg" alt="" />
                     </div>
                     <a href="/pricing">
-                    <div className='h-10 w-35 bg-red-600 rounded-2xl mt-15 flex justify-center py-2  text-[15px] text-white'>Get Full Access</div>
+                    <div className='btn-4 h-10 w-35 bg-red-600 rounded-2xl mt-15 flex justify-center py-2  text-[15px] text-white'>Get Full Access</div>
                     </a>
                 </div>
-                 {/* <Footer /> */}
+                 <Footer />
                 
             </div>
         </div>
