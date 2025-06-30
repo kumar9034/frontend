@@ -8,7 +8,7 @@ const Section3 = () => {
                     <div className='vd mt-15 ml-15 flex'>
                         <video
                             className="w-full max-w-2xl rounded-md shadow-lg"
-                            poster="./public/poster.webp"
+                            poster="/poster.webp"
                             controls
                         >
                             <source src="/video.mp4" type="video/mp4" />
