@@ -193,7 +193,7 @@ const Firstpage = () => {
           <div className='btn-4 h-10 w-35 bg-red-600 rounded-2xl cursor-pointer mt-15 flex justify-center py-2  text-[15px] text-white'>join now</div>
         </a>
       </div>
-      {/* <Question /> */}
+      <Question />
       <Footer />
     </div>
     </div>
