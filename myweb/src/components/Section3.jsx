@@ -16,7 +16,7 @@ const Section3 = () => {
                         </video>
                     </div>
                 </div>
-                <div className=' sm:w-[55%] w-95  '>
+                <div className=' sm:w-[55%] w-88  '>
                     <h1 className='sm:text-[35px] text-[25px] sm:mt-23 mt-10 sm:pl-18 px-1 text-center text-white font-bold'>Learn From the Best Teachers</h1>
                     <p className='sm:text-[15px] text-center text-[14px] text-white font-normal sm:pl-18 pl-7 pr-18 mt-3'>At Frontend Masters, we pride ourselves on offering courses designed and taught by leading experts actively employing their skills at renowned companies such as Netflix, Spotify, Google, and Stripe. Our curriculum is continually refreshed to align with the most recent advancements, guaranteeing that our learners are equipped with industry-standard best practices and cutting-edge techniques.</p>
                     <div className=' sm:flex gap-10 sm:ml-20 px-5 '>
