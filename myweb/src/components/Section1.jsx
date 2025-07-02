@@ -4,7 +4,7 @@ const Section1 = () => {
   return (
     <div>
       <div className='flex '>
-          <div className=' sm:h-[50%] h-[50%] sm:w-[60%] w-[70%]   sm:mt-[18%] mt-[50%] sm:ml-20 ml-10'>
+          <div className=' sm:h-[50%] h-[50%] sm:w-[60%] w-[70%]   sm:mt-[18%] mt-[65%] sm:ml-20 ml-10'>
             <h3 className='sm:text-[25px] text-[20px] sm:text-black font-bold text-white '>In-Depth Frontend & Fullstack Courses</h3>
             <h1 className='sm:text-[3rem] text-[2rem] font-bold sm:text-black text-white'>Your Path to Senior Developer and Beyond</h1>
             <div className=' sm:flex gap-10'>

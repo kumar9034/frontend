@@ -32,26 +32,26 @@ const Secondpage = () => {
 
             </div>
 
-            <div className='h-auto w-full  bg-[#333333] '>
+            <div className='h-auto w-full   bg-[#333333] '>
                 <Section3 />
 
-                <div className='heading2 h-77 w-full bg-[#111111] flex flex-col  items-center justify-center '>
-                    <h1 className='text-white flex items-center  text-[36px] font-bold'>Not sure where to get started?</h1>
-                    <p className='text-white mt-3 text-[16px]'>Answer three short questions and we'll recommend the best learning path for your experience level and goals</p>
+                <div className=' h-77 w-full bg-[#111111] flex flex-col  items-center justify-center '>
+                    <h1 className='text-white flex items-center text-center sm:text-[36px] text-[25px] font-bold px-10'>Not sure where to get started?</h1>
+                    <p className='text-white mt-3 text-[16px] text-center px-10'>Answer three short questions and we'll recommend the best learning path for your experience level and goals</p>
                     <div className='h-10 flex justify-center items-center w-35 bg-red-600 rounded-2xl text-[15px] mt-10 font-semibold  text-white '>Take the Quiz</div>
                 </div>
                 <div className='heading3 h-auto w-full bg-[#333333] ' >
                     <div className='inner-heading h-40 w-full pt-12 flex flex-col items-center '>
-                        <h1 className='text-4xl text-white font-bold  '>Upskill Your Software Development Team</h1>
-                        <p className='text-[24px] mt-2 font-bold text-white'>Learn together and apply consistent standards and best practices across projects.</p>
-                        <p className='text-[18px] font-sm mt-1 text-white '>Save 37% over individual plans with 10 team members or more!</p>
+                        <h1 className='sm:text-4xl text-2xl text-center px-10 text-white font-bold  '>Upskill Your Software Development Team</h1>
+                        <p className='sm:text-[24px] text-[20px] text-center px-10 mt-2 font-bold text-white'>Learn together and apply consistent standards and best practices across projects.</p>
+                        <p className='sm:text-[18px] text-[18px] text-center px-10 font-sm mt-1 text-white '>Save 37% over individual plans with 10 team members or more!</p>
                         <a href="/pricing">
                             <div className='btn-2 h-13 w-41 bg-red-600  text-[14px] font-[400] flex justify-center py-4 text-white mt-7 rounded-2xl'>Browse Team Plans</div>
                             </a>
                     </div>
 
-                    <div className='contain-cards flex w-full h-auto pt-30 flex gap-5 items-center pb-10  px-10'>
-                        <div className='card w-100 h-auto bg-black mb-10 rounded-lg px-3 py-3'>
+                    <div className=' sm:flex w-full h-auto pt-30 sm:flex gap-5 mt-25 items-center pb-10  sm:px-10 px-5'>
+                        <div className='card sm:w-100  h-auto bg-black mb-10 rounded-lg px-3 py-3'>
                             <RiDoubleQuotesL color="#de5625" size={30} />
                             <p className='text-white flex-wraps text-[16px] mx-6 my-3  '>When, without any prompting; your manager offers you a Frontend Masters subscription you know you picked a good place to work 😍</p>
                             <div className='flex '>
@@ -65,7 +65,7 @@ const Secondpage = () => {
                             </div>
 
                         </div>
-                        <div className='card w-100 h-auto bg-black mb-10 rounded-lg px-3 py-3'>
+                        <div className=' sm:w-100  h-auto bg-black mb-10 rounded-lg px-3 py-3'>
                             <RiDoubleQuotesL color="#de5625" size={30} />
                             <p className='text-white flex-wraps text-[16px] mx-6 my-3  '>Frontend Masters I’ve had a license for at least 4 years now. Got one for all my team when I was a team lead. The content is first class and the price is very cheap especially considering what you would pay to take that workshop in person.</p>
                             <div className='flex '>
@@ -79,7 +79,7 @@ const Secondpage = () => {
                             </div>
 
                         </div>
-                        <div className='card w-100 h-auto bg-black mb-10 rounded-lg px-3 py-3'>
+                        <div className=' sm:w-100  h-auto bg-black mb-10 rounded-lg px-3 py-3'>
                             <RiDoubleQuotesL color="#de5625" size={30} />
                             <p className='text-white flex-wraps text-[16px] mx-6 my-3  '>Our team got a Frontend Masters subscription and it has been super helpful, especially for the new devs on our team who aren't as familiar with frontend technologies. I highly recommend giving them a try. 🙂</p>
                             <div className='flex '>
@@ -95,14 +95,14 @@ const Secondpage = () => {
                         </div>
                     </div>
                 </div> 
-                <div className='heading4 h-93 w-full bg-[#1f1f1f] flex flex-col pt-16 items-center'>
-                    <h1 className='text-4xl font-bold text-white '>Learn Straight from Experts Who Shape the Modern Web</h1>
-                    <p className='text-2xl font-bold text-white '>Our courses are taught by developers from these top companies (and more)</p>
-                    <div className='logoes h-10 w-full  flex pl-71 gap-10 mt-12'>
-                        <img className='a h-10 w-40 ' src="/microsoft.svg" alt="" />
-                        <img className='b h-10 w-40' src="/netflix.svg" alt="" />
-                        <img className='c h-10 w-40' src="/stripe.svg" alt="" />
-                        <img className='d h-10 w-40' src="/spotify.svg" alt="" />
+                <div className=' sm:h-93 h-auto w-full bg-[#1f1f1f] flex flex-col pt-16 pb-10 items-center'>
+                    <h1 className='sm:text-4xl text-[1.7rem] px-10 text-center  font-bold text-white '>Learn Straight from Experts Who Shape the Modern Web</h1>
+                    <p className='sm:text-2xl text-[1.2rem] px-10 text-center font-bold text-white '>Our courses are taught by developers from these top companies (and more)</p>
+                    <div className=' sm:h-10 h-auto  w-full  sm:flex sm:pl-71 pl-33  mt-12'>
+                        <img className=' sm:h-10 h-10 w-40 mt-5 ' src="/microsoft.svg" alt="" />
+                        <img className=' sm:h-10 h-8 w-40 mt-5' src="/netflix.svg" alt="" />
+                        <img className=' sm:h-10 h-6 w-40 mt-5' src="/stripe.svg" alt="" />
+                        <img className=' sm:h-10 h-4 w-40 mt-5' src="/spotify.svg" alt="" />
                     </div>
                     <a href="/pricing">
                     <div className='btn-4 h-10 w-35 bg-red-600 rounded-2xl mt-15 flex justify-center py-2  text-[15px] text-white'>Get Full Access</div>

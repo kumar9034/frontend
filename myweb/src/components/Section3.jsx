@@ -16,16 +16,16 @@ const Section3 = () => {
                         </video>
                     </div>
                 </div>
-                <div className=' sm:w-[55%] w-100  '>
-                    <h1 className='sm:text-[35px] text-[27px] sm:mt-23 mt-10 sm:pl-18 text-white font-bold'>Learn From the Best Teachers</h1>
-                    <p className='text-[15px] text-white font-normal pl-18 pr-18 mt-3'>At Frontend Masters, we pride ourselves on offering courses designed and taught by leading experts actively employing their skills at renowned companies such as Netflix, Spotify, Google, and Stripe. Our curriculum is continually refreshed to align with the most recent advancements, guaranteeing that our learners are equipped with industry-standard best practices and cutting-edge techniques.</p>
-                    <div className='contain2-btn flex gap-10 ml-20'>
+                <div className=' sm:w-[55%] w-100 pl-5 '>
+                    <h1 className='sm:text-[35px] text-[27px] sm:mt-23 mt-10 sm:pl-18  text-white font-bold'>Learn From the Best Teachers</h1>
+                    <p className='sm:text-[15px] text-center text-[14px] text-white font-normal sm:pl-18 pl-7 pr-18 mt-3'>At Frontend Masters, we pride ourselves on offering courses designed and taught by leading experts actively employing their skills at renowned companies such as Netflix, Spotify, Google, and Stripe. Our curriculum is continually refreshed to align with the most recent advancements, guaranteeing that our learners are equipped with industry-standard best practices and cutting-edge techniques.</p>
+                    <div className=' sm:flex gap-10 sm:ml-20 ml-5'>
                         <a href="/courses">
-                            <div className='btn-3 h-10 w-40 cursor-pointer bg-[#c02d28] rounded-2xl mt-5 text-[14px] leading-none text-white flex items-center justify-center'>
+                            <div className=' h-10 sm:w-40 w-[20rem] cursor-pointer bg-[#c02d28] rounded-2xl mt-5 text-[14px] leading-none text-white flex items-center justify-center'>
                                 <h2 >Browes Our Courses</h2>
                             </div>
                         </a>
-                        <div className='btn-3 h-10 w-40 bg-[#c95018] cursor-pointer rounded-2xl mt-5 text-[14px] text-white flex items-center justify-center'>
+                        <div className=' h-10 sm:w-40 w-[20rem] bg-[#c95018] cursor-pointer rounded-2xl mt-5 text-[14px] text-white flex items-center justify-center'>
                             <a href="/learn">
                                 <h2 >View Learning Paths</h2>
                             </a>
@@ -34,7 +34,7 @@ const Section3 = () => {
                 </div>
             </div>
 
-            <div className='performance flex flex-wrap justify-between px-20 py-10 text-center gap-5 text-white'>
+            <div className=' sm:flex flex-wrap  justify-between px-20 py-10 text-center gap-5 text-white'>
                 <div className='feature w-full sm:w-1/2 lg:w-1/4'>
                     <p className='text-[55px] font-bold text-[#c44d42]'>
                         2<span className='text-[#d8532b]'>00+</span>
