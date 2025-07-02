@@ -12,10 +12,12 @@ const App = () => {
     <>
     
     <div className='hero h-auto w-full flex  '>
-        <img className='image1 object-cover relative ' src="/photoHero.webp" alt="" />
+        <img className=' relative w-full sm:h-screen h-screen  object-cover ' src="/photoHero.webp" alt="" />
       
       <div className='flex absolute'>
-        <Navbar/>
+        <Navbar fixed="fixed"
+        bg='transparent'
+        text="text-[#c02d28]"/>
         <Section1/>
       </div>
     </div>

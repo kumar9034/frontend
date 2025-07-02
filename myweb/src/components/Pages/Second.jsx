@@ -4,56 +4,19 @@ import Coursescard from '../Coursescard'
 import { LuTv } from "react-icons/lu";
 import Footer from '../Footer'
 import { MdPlayArrow } from "react-icons/md";
+import Navbar from '../Navbar';
 
 const Second = () => {
   return (
     <>
-      <div className='w-full h-20 flex bg-[#37140f] pt-2 border-b-2 border-[#c95018]'>
-        <a href="/">
-          <img
-            className=' h-[45%] w-[80%] ml-10 mt-3 mr-10 '
-            src="/logo.svg" alt="" />
-        </a>
-        <div className='flex mt-4 ml-3 gap-10'>
-          <a href="/feature">
-            <h3 className='font-bold text-[#aaaaaa] text-[16px] coursor-pointer '>Features</h3>
-          </a>
-          <a href="/learn">
-            <h3 className='font-bold text-[#aaaaaa] text-[16px] coursor-pointer '>Learn</h3>
-          </a>
-          <a href="/courses">
-           <h3 className='font-bold text-[#aaaaaa] cursor-pointer text-[16px] '>Courses</h3>
-          </a>
-           <a href="/tutorial">
-          <h3 className='font-bold text-[#aaaaaa] cursor-pointer text-[16px] '>Tutorials <span className='bg-[#04ba71] h-3 w-4 rounded px-1 text-white text-2'>New</span></h3>
-          </a>
-          <a href="/pricing">
-          <h3 className='font-bold text-[#aaaaaa] text-[16px] cursor-pointer '>Pricing</h3>
-          </a>
-        </div>
-        <div className='ml-[10%] flex'>
-          <div className='mt-6'>
-            <FaSearch color="white" size={24} />
-          </div>
-          <a href="/pricing">
-          <div className='w-30 h-10 mt-4 ml-8 rounded-2xl bg-[#c02d28] text-white text-[15px] font-bold items-center flex justify-center'>
-            Join Now
-          </div>
-          </a>
-          <div className='mt-5 ml-8'>
-           <a href="/login">
-            <h3 className='text-[18px]cursor-pointer font-bold text-white'>Login</h3>
-           </a>
-          </div>
-        </div>
-      </div>
+      <Navbar fixed="" bg='#37140f' text='text-[#aaaaaa]'/>
       <div className='h-auto w-full bg-[#222222]'>
         <div className='flex flex-col gap-5 pt-12 justify-center items-center '>
           <img src="/path.svg" alt="" />
-          <h1 className='text-5xl  text-white font-bold '>Learning Paths</h1>
-          <p className='text-16 text-white '>Guided paths to expand your abilities as a well-rounded engineer!</p>
+          <h1 className='sm:text-5xl text-5xl  text-white font-bold '>Learning Paths</h1>
+          <p className='sm:text-10   text-white '>Guided paths to expand your abilities as a well-rounded engineer!</p>
         </div>
-        <div className='flex flex-wrap gap-5  px-15 pt-10 pb-20'>
+        <div className='flex flex-wrap gap-5  sm:px-15 pt-10 pb-20'>
           <Coursescard title="Beginner"
             description="Your Path to Becoming a Career-Ready Web Developer!"
             duration="Total time: 38 hours, 57 minutes"
@@ -101,8 +64,8 @@ const Second = () => {
 
           <div className='h-auto w-full   flex flex-col pt-15 items-center   '>
             <img className='h-13 w-13 mb-4' src="./public/book.svg" alt="" />
-            <h1 className='text-5xl font-bold text-white  '>Topic Paths</h1>
-            <p className='text-[16px] text-white mt-5 mb-10'>Focus on a specific area in web development.</p>
+            <h1 className='sm:text-5xl text-5xl font-bold text-white  '>Topic Paths</h1>
+            <p className='sm:text-[16px] text-white mt-5 mb-10'>Focus on a specific area in web development.</p>
             <div className='flex gap-y-5 flex-wrap'>
               <Coursescard title="JavaScript"
                 description="write professional, modern javascript"
@@ -173,37 +136,54 @@ const Second = () => {
           </div>
         </div>
       </div>
-          <div className='w-full h-[34rem] bg-[#393939] pl-16 pt-16  '>
-            <div className='w-[95%] px-10 text-white  h-40 pt-13 bg-black flex   rounded-lg '>
-              <div className='w-80 text-[17px]  font-bold '>
-              <h1 >Learn Straight from the Experts Who Shape the Modern Web</h1>
-              </div>
-              <div className='w-50 ml-10 leading-5 gap-3 flex flex-col '>
-                <p className='flex font-bold text-[#d04327]'>200+ <span className='font-normal text-white ml-2 text-[15px]'>In-depth Courses</span></p>
-                <p className='text-[18px] text-[#d04327]  font-bold'>18 <span className='font-normal ml-2 text-white text-[15px]'>Learning Paths</span></p>
-              </div>
-              <div className='h-17 border-1 border-white ml-3'></div>
-              <div className='flex flex-col gap-1 ml-8 '>
-                <div className='flex w-70 gap-2'>
-                <img className='w-15' src="./public/star.png" alt="" />
-                  <p className='text-[15px]'>Industry Leading Experts</p>
-                </div>
-                  <div className='w-70 flex gap-4'>
-                <LuTv size={24} color='#d04327' className='ml-5' />
-                    <p className='text-[15px]'>Live Interactive Workshops</p>
-                  </div>
-              </div>
-              <div className='h-10 w-60  rounded-3xl px-4 py-2 bg-[#d04327] text-[15px] '>Get Unlimited Access Now</div>
-            </div>
-            <div className=' mt-15 flex flex-col justify-center items-center'>
-              <h1 className='text-[39px] font-bold text-white'>Not sure where to get started?</h1>
-              <p className='text-white mt-5'>Answer three short questions and we'll recommend the best learning path for your experience level and goals</p>
-              <p className='text-[#d04327] flex gap-1 mt-10'>Take the Quiz <MdPlayArrow size={25}  /></p>
-
-            </div>
-
+      <div className='w-full h-auto  bg-[#393939] pl-10 pt-16  '>
+        <div className="w-[95%] px-10 py-8 text-white bg-black rounded-lg flex flex-col sm:flex-row sm:items-start gap-6">
+          {/* Left Heading */}
+          <div className="sm:w-80 text-[18px] font-bold leading-6">
+            <h1>Learn Straight from the Experts Who Shape the Modern Web</h1>
           </div>
-          <Footer/>
+
+          {/* Middle Feature Columns */}
+          <div className="flex flex-col gap-3 ml-0 sm:ml-10 text-[15px]">
+            <p className="flex items-center font-semibold text-[#d04327]">
+              200+ <span className="ml-2 font-[1rem] text-white">In-depth Courses</span>
+            </p>
+            <p className="flex items-center font-bold text-[#d04327] text-[18px]">
+              18 <span className="ml-2 font-normal text-white text-[15px]">Learning Paths</span>
+            </p>
+          </div>
+
+          {/* Vertical Divider */}
+          <div className="hidden sm:block h-auto w-[1px] bg-white mx-4" />
+
+          {/* Right Icon Section */}
+          <div className="flex flex-col gap-4">
+            <div className="flex items-center gap-2">
+              <img src="./public/star.png" alt="star" className="w-15 h-10" />
+              <p className="text-[15px]">Industry Leading Experts</p>
+            </div>
+            <div className="flex items-center gap-2">
+              <LuTv size={24} color="#d04327" />
+              <p className="text-[15px]">Live Interactive Workshops</p>
+            </div>
+          </div>
+
+          {/* Button */}
+          <div className="mt-6 sm:mt-0 sm:ml-auto">
+            <button className="h-10 w-60 rounded-3xl px-4 py-2 bg-[#d04327] text-[15px] font-semibold">
+              Get Unlimited Access Now
+            </button>
+          </div>
+        </div>
+        <div className=' mt-15 flex flex-col justify-center items-center'>
+          <h1 className='sm:text-[40px]  font-bold text-white'>Not sure where to get started?</h1>
+          <p className='text-white mt-5'>Answer three short questions and we'll recommend the best learning path for your experience level and goals</p>
+          <p className='text-[#d04327] flex gap-1 mt-10'>Take the Quiz <MdPlayArrow size={25} /></p>
+
+        </div>
+
+      </div>
+      <Footer />
     </>
   )
 }

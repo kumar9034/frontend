@@ -20,7 +20,6 @@ const index = () => {
             <Route path='/courses' element={<Courses/>} />
             <Route path='/courses' element={<Courses/>} />
             <Route path='/tutorial' element={<Tutorial/>} />
-             <Route path="*" element={<NotFound />} />
           </Routes>
     </div>
   )

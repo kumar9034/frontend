@@ -3,9 +3,9 @@ import React from 'react'
 const Section3 = () => {
     return (
         <div>
-            <div className='container-video flex w-full h-auto'>
-                <div className='contain-video w-[45%]  '>
-                    <div className='vd mt-15 ml-15 flex'>
+            <div className=' sm:flex w-full h-auto pt-10 px-5'>
+                <div className='sm:w-[45%] w-full  '>
+                    <div className=' sm:mt-15  sm:ml-15 flex'>
                         <video
                             className="w-full max-w-2xl rounded-md shadow-lg"
                             poster="/poster.webp"
@@ -16,8 +16,8 @@ const Section3 = () => {
                         </video>
                     </div>
                 </div>
-                <div className='description w-[55%]  '>
-                    <h1 className='text-[35px] mt-23 pl-18 text-white font-bold'>Learn From the Best Teachers</h1>
+                <div className=' sm:w-[55%] w-100  '>
+                    <h1 className='sm:text-[35px] text-[27px] sm:mt-23 mt-10 sm:pl-18 text-white font-bold'>Learn From the Best Teachers</h1>
                     <p className='text-[15px] text-white font-normal pl-18 pr-18 mt-3'>At Frontend Masters, we pride ourselves on offering courses designed and taught by leading experts actively employing their skills at renowned companies such as Netflix, Spotify, Google, and Stripe. Our curriculum is continually refreshed to align with the most recent advancements, guaranteeing that our learners are equipped with industry-standard best practices and cutting-edge techniques.</p>
                     <div className='contain2-btn flex gap-10 ml-20'>
                         <a href="/courses">

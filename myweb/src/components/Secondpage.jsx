@@ -9,24 +9,24 @@ const Secondpage = () => {
     return (
         <div>
             <div className='h-auto w-full bg-[#111111] '>
-                <div className='flex items-center w-full justify-center pt-3'>
-                    <p className='heading-upper text-white text-[15px] font-bold'>Join us live online ! <span className='text-[#c02d28]'>API Design in Node.js, v5  </span>on Aug 13, 2025.</p>
+                <div className='flex sm:items-center w-full justify-center text-center pt-3'>
+                    <p className=' text-white sm:text-[15px] text-[15px] font-bold'>Join us live online ! <span className='text-[#c02d28]'>API Design in Node.js, v5  </span>on Aug 13, 2025.</p>
                 </div>
 
-                <div className='secondsection w-[75%]  ml-[15%] flex flex-col'>
-                    <h1 className='practical text-white font-bold text-[2rem] mt-20 ml-20 '>Gain Practical Tech Skills from Experts You Can Trust</h1>
-                    <p className='language text-white text-[15px] ml-45'>JavaScript, React, and TypeScript to Node.js and Backend (Go, Git, Docker, & More)</p>
-                    <div className='contain-icon flex gap-13 mt-17 ml-20'>
-                        <img className='icon w-20' src="/javascript.svg" alt="" />
-                        <img className='icon w-20' src="/react.svg" alt="" />
-                        <img className='icon w-20' src="/typescript.svg" alt="" />
-                        <img className='icon w-20' src="/database.svg" alt="" />
-                        <img className='icon w-20' src="/node js.svg" alt="" />
-                        <img className='icon w-20' src="/nextjs.svg" alt="" />
-                        <img className='icon w-20' src="/go.svg" alt="" />
+                <div className=' sm:w-[75%] w-[85%]  sm:ml-[15%] ml-[10%] flex flex-col '>
+                    <h1 className=' text-white font-bold sm:text-[2rem] text-[1.5rem] text-center  sm:mt-20 mt-5 sm:ml-20 '>Gain Practical Tech Skills from Experts You Can Trust</h1>
+                    <p className='language text-white text-[15px] sm:ml-45 text-center mt-3'>JavaScript, React, and TypeScript to Node.js and Backend (Go, Git, Docker, & More)</p>
+                    <div className=' flex flex-wrap sm:gap-13 gap-7 mt-17 sm:ml-20 '>
+                        <img className='icon sm:w-20 w-10' src="/javascript.svg" alt="" />
+                        <img className='icon sm:w-20 w-14 ' src="/react.svg" alt="" />
+                        <img className='icon sm:w-20 w-14 ' src="/typescript.svg" alt="" />
+                        <img className='icon sm:w-20 w-14 ' src="/database.svg" alt="" />
+                        <img className='icon sm:w-20 w-14 ' src="/node js.svg" alt="" />
+                        <img className='icon sm:w-20 w-14 ' src="/nextjs.svg" alt="" />
+                        <img className='icon sm:w-20 w-14 ' src="/go.svg" alt="" />
                     </div>
-                    <div className='section-down pt-20  flex justify-center items-center mb-20'>
-                        <p className='text-[15px] font-bold text-white '>Popular Learning Paths: <span className='text-[#fc706b]'>Beginner </span>• <span className='text-[#fc706b]'>Professional</span> • <span className='text-[#fc706b]'>Fullstack</span></p>
+                    <div className=' pt-20  flex justify-center items-center mb-20'>
+                        <p className='sm:text-[15px] text-[14 text-center font-bold text-white '>Popular Learning Paths: <span className='text-[#fc706b]'>Beginner </span>• <span className='text-[#fc706b]'>Professional</span> • <span className='text-[#fc706b]'>Fullstack</span></p>
                     </div>
                 </div>
 

@@ -4,23 +4,23 @@ const Footer = () => {
   return (
     <>
       <div className=' h-auto w-full  '>
-        <div className='footer h-76 w-full  bg-[#000000] pr-10 pl-15 pt-12 '>
-            <div className='icon-2 flex ml-[80%]  gap-3'>
+        <div className=' h-auto w-full  flex-col sm:flex-row sm:items-start  bg-[#000000] pr-10 sm:pl-15 pt-12 '>
+            <div className=' flex sm:ml-[80%]  gap-3'>
             <FaSquareXTwitter />
             <img className='h-9 w-10 '  src="/twitter.svg" alt="" />
             <img className='h-9 w-10 ' src="/linkin.svg" alt="" />
             <img className='h-9 w-10 ' src="/facebook-icon.svg" alt="" />
             <img className='h-9 w-10 ' src="/inst.svg" alt="" />
             </div>
-            <div className='logo-3 w-full mt-4 flex justify-between '>
+            <div className=' w-full mt-4 sm:flex justify-between '>
                 <img className='h-10 w-55' src="/logo.svg" alt="" />
                 <div className='flex gap-3'>
                 <img className='' src="/apple.svg" alt="" />
                 <img src="/playstore.svg" alt="" />
                 </div>
             </div>
-            <div className='menu-2 flex justify-between mt-8 '>
-                <div className='list flex gap-5'>
+            <div className=' sm:flex justify-between mt-8 '>
+                <div className='list sm:flex sm:gap-10'>
                 <p className='text-sm text-[#aaaaaa]'>Courses</p>
                 <p className='text-sm text-[#aaaaaa]'>Learn</p>
                 <p className='text-sm text-[#aaaaaa]'>Workshops</p>
