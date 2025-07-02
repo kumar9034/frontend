@@ -7,7 +7,7 @@ const Section3 = () => {
                 <div className='sm:w-[45%] w-full  '>
                     <div className=' sm:mt-15  sm:ml-15 flex'>
                         <video
-                            className="w-full max-w-2xl rounded-md shadow-lg"
+                            className="w-full max-w-2xl px-5 rounded-md shadow-lg"
                             poster="/poster.webp"
                             controls
                         >
