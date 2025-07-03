@@ -51,7 +51,7 @@ const Courses = () => {
         description:"Find the end-to-end type-safety strategy that works with your stack! Share TypeScript types across client and server apps. Write bullet-proof Zod schemas. Use tRPC queries and mutations. Explore Prisma for database migrations and schema generation.",
         heading:"Fullstack TypeScript, v2 (feat. Zod)",
         time:"4 hours, 8 minutes",
-        image:"./public/thumb (4).webp",
+        image:"/thumb (4).webp",
   },
 {
         id:6,

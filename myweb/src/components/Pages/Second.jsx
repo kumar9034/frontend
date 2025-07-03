@@ -63,7 +63,7 @@ const Second = () => {
             gradientTo='#b64614' />
 
           <div className='h-auto w-full   flex flex-col pt-15 items-center   '>
-            <img className='h-13 w-13 mb-4' src="./public/book.svg" alt="" />
+            <img className='h-13 w-13 mb-4' src="/book.svg" alt="" />
             <h1 className='sm:text-5xl text-5xl font-bold text-white  '>Topic Paths</h1>
             <p className='sm:text-[16px] text-white mt-5 mb-10'>Focus on a specific area in web development.</p>
             <div className='flex gap-y-5 flex-wrap'>
