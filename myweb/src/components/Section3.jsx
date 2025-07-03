@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Section3 = () => {
     return (
@@ -20,15 +21,15 @@ const Section3 = () => {
                     <h1 className='sm:text-[35px] text-[25px] sm:mt-23 mt-10 sm:pl-18 px-1 text-center text-white font-bold'>Learn From the Best Teachers</h1>
                     <p className='sm:text-[15px] text-center text-[14px] text-white font-normal sm:pl-18 pl-7 pr-18 mt-3'>At Frontend Masters, we pride ourselves on offering courses designed and taught by leading experts actively employing their skills at renowned companies such as Netflix, Spotify, Google, and Stripe. Our curriculum is continually refreshed to align with the most recent advancements, guaranteeing that our learners are equipped with industry-standard best practices and cutting-edge techniques.</p>
                     <div className=' sm:flex gap-10 sm:ml-20 px-5 '>
-                        <a href="/courses">
+                        <Link to="/courses">
                             <div className=' h-10 sm:w-40 w-[20rem] cursor-pointer bg-[#c02d28] rounded-2xl mt-5 text-[14px] leading-none text-white flex items-center justify-center'>
                                 <h2 >Browes Our Courses</h2>
                             </div>
-                        </a>
+                        </Link>
                         <div className=' h-10 sm:w-40 w-[20rem] bg-[#c95018] cursor-pointer rounded-2xl mt-5 text-[14px] text-white flex items-center justify-center'>
-                            <a href="/learn">
+                            <Link to="/learn">
                                 <h2 >View Learning Paths</h2>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

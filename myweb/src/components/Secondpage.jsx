@@ -3,6 +3,7 @@ import { RiDoubleQuotesL } from "react-icons/ri";
 import Footer from './Footer';
 import Section3 from './Section3';
 import CourseCard from './Pages/Second';
+import { Link } from 'react-router-dom';
 
 const Secondpage = () => {
 
@@ -45,9 +46,9 @@ const Secondpage = () => {
                         <h1 className='sm:text-4xl text-2xl text-center px-10 text-white font-bold  '>Upskill Your Software Development Team</h1>
                         <p className='sm:text-[24px] text-[20px] text-center px-10 mt-2 font-bold text-white'>Learn together and apply consistent standards and best practices across projects.</p>
                         <p className='sm:text-[18px] text-[18px] text-center px-10 font-sm mt-1 text-white '>Save 37% over individual plans with 10 team members or more!</p>
-                        <a href="/pricing">
+                        <Link to="/pricing">
                             <div className='btn-2 h-13 w-41 bg-red-600  text-[14px] font-[400] flex justify-center py-4 text-white mt-7 rounded-2xl'>Browse Team Plans</div>
-                            </a>
+                            </Link>
                     </div>
 
                     <div className=' sm:flex w-full h-auto pt-30 sm:flex gap-5 mt-25 items-center pb-10  sm:px-10 px-5'>
@@ -104,9 +105,9 @@ const Secondpage = () => {
                         <img className=' sm:h-10 h-6 w-40 mt-5' src="/stripe.svg" alt="" />
                         <img className=' sm:h-10 h-4 w-40 mt-5' src="/spotify.svg" alt="" />
                     </div>
-                    <a href="/pricing">
+                    <Link to="/pricing">
                     <div className='btn-4 h-10 w-35 bg-red-600 rounded-2xl mt-15 flex justify-center py-2  text-[15px] text-white'>Get Full Access</div>
-                    </a>
+                    </Link>
                 </div>
                  <Footer />
                 

@@ -5,6 +5,7 @@ import Footer from '../Footer'
 import { FaPlay } from "react-icons/fa";
 import { MdMenu } from "react-icons/md";
 import Navbar from '../Navbar';
+import { Link } from 'react-router-dom';
 
 const Firstpage = () => {
   return (
@@ -29,15 +30,15 @@ const Firstpage = () => {
             <h1 className='sm:text-5xl text-4xl pl-5 mt-13 sm:pl-18 text-white font-bold'>Why Frontend Masters?</h1>
             <p className='sm:text-[15px] text-white font-normal sm:pl-18 pl-5 sm:pr-18 pr-5 mt-3'>All of our courses are taught by active practitioners using the skills they teach at top companies you know like Netflix, Spotify, Google, and Stripe. In addition, our courses are regularly updated to keep pace with the latest evolutions to ensure you're learning industry best practices and the latest techniques.</p>
             <div className=' sm:flex gap-10 sm:ml-20 ml-10'>
-              <a href="/courses">
+              <Link to="/courses">
                 <div className=' h-10 sm:w-40 w-70 bg-[#c02d28] cursor-pointer rounded-2xl mt-5 text-[14px] leading-none text-white flex items-center justify-center'>
                   <h2 >Browes Our Courses</h2>
                 </div>
-              </a>
+              </Link>
               <div className=' h-10 sm:w-40 w-70 bg-[#c95018] rounded-2xl mt-5 cursor-pointer text-[14px] text-white flex items-center justify-center'>
-                <a href="/learn">
+                <Link to="/learn">
                   <h2 >View Learning Paths</h2>
-                </a>
+                </Link>
               </div>
             </div>
             <div>
@@ -147,9 +148,9 @@ const Firstpage = () => {
             <img className='h-10 sm:w-40 w-46 mt-5' src="/stripe.svg" alt="" />
             <img className='h-10 sm:w-40 w-44 mt-5' src="/spotify.svg" alt="" />
           </div>
-        <a href="/pricing">
+        <Link to="/pricing">
           <div className=' h-10 sm:w-35 w-70 bg-red-600 rounded-2xl cursor-pointer mt-15 flex justify-center py-2  text-[15px] text-white'>join now</div>
-        </a>
+        </Link>
       </div>
       <Question />
       <Footer />

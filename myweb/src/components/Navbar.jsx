@@ -43,9 +43,9 @@ const Navbar = ({bg, fixed, text }) => {
           </div>
           </Link>
           <div className='hidden sm:block mt-5 ml-8'>
-            <a href="/login">
+            <Link to="/login">
               <h3 className='text-[18px] cursor-pointer font-bold text-white'>Login</h3>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

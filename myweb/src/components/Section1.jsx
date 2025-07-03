@@ -1,22 +1,23 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Section1 = () => {
   return (
     <div>
       <div className='flex '>
-          <div className=' sm:h-[50%] h-[50%] sm:w-[60%] w-[70%]   sm:mt-[18%] mt-[65%] sm:ml-20 ml-10'>
+          <div className=' sm:h-[50%] h-[50%] sm:w-[60%] w-[70%]   sm:mt-[18%] mt-[75%] sm:ml-10 ml-5'>
             <h3 className='sm:text-[25px] text-[20px] sm:text-black font-bold text-white '>In-Depth Frontend & Fullstack Courses</h3>
             <h1 className='sm:text-[3rem] text-[2rem] font-bold sm:text-black text-white'>Your Path to Senior Developer and Beyond</h1>
             <div className=' sm:flex gap-10'>
-              <a href="/courses">
-              <div className=' h-10 sm:w-50 w-[20rem] bg-[#c02d28] cursor-pointer rounded-2xl mt-10 sm:text-[18px] text-[15px] leading-none text-white flex items-center justify-center'>
+              <Link to="/courses">
+              <div className=' h-10 sm:w-50 w-[19rem] bg-[#c02d28] cursor-pointer rounded-2xl mt-10 sm:text-[18px] text-[15px] leading-none text-white flex items-center justify-center'>
                 <h2 >Browes Our Courses</h2>
               </div>
-              </a>
-              <div className=' h-10 sm:w-50 w-[20rem] bg-[#c95018] rounded-2xl sm:mt-10 mt-5 sm:text-[18px] text-[15px] text-white flex items-center cursor-pointer justify-center'>
-                <a href="/learn">
+              </Link>
+              <div className=' h-10 sm:w-50 w-[19rem] bg-[#c95018] rounded-2xl sm:mt-10 mt-5 sm:text-[18px] text-[15px] text-white flex items-center cursor-pointer justify-center'>
+                <Link to="/learn">
                 <h2 >View Learning Paths</h2>
-                </a>
+                </Link>
               </div>
             </div>
           </div >
