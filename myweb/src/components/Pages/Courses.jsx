@@ -5,6 +5,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { IoMenu } from "react-icons/io5";
 import Card from '../Firstcard';
 import Footer from '../Footer'
+import Navbar from '../Navbar'
 
 const Courses = () => {
 
@@ -101,62 +102,24 @@ const Courses = () => {
   
   return (
     <div>
-      <div className='w-full h-20 flex bg-[#37140f] pt-2 border-b-2 border-[#c95018]'>
-        <a href="/">
-          <img
-            className=' h-[45%] w-[80%] ml-10 mt-3 mr-10 '
-            src="/logo.svg" alt="" />
-        </a>
-        <div className='flex mt-4 ml-3 gap-10'>
-          <a href="/feature">
-            <h3 className='font-bold text-[#aaaaaa] text-[16px] coursor-pointer'>Features</h3>
-          </a>
-          <a href="/learn">
-            <h3 className='font-bold text-[#aaaaaa] text-[16px] coursor-pointer '>Learn</h3>
-          </a>
-          <a href="/courses">
-            <h3 className='font-bold text-[#aaaaaa] cursor-pointer text-[16px] '>Courses</h3>
-          </a>
-          <a href="/tutorial">
-          <h3 className='font-bold text-[#aaaaaa] text-[16px] cursor-pointer '>Tutorials <span className='bg-[#04ba71] h-3 w-4 rounded px-1 text-white text-2'>New</span></h3>
-          </a>
-          <a href="/pricing">
-            <h3 className='font-bold text-[#aaaaaa] text-[16px] cursor-pointer '>Pricing</h3>
-          </a>
-        </div>
-        <div className='ml-[10%] flex'>
-          <div className='mt-6'>
-            <FaSearch color="white" size={24} />
-          </div>
-          <a href="/pricing">
-          <div className='w-30 h-10 mt-4 ml-8 rounded-2xl bg-[#c02d28] text-white text-[15px] font-bold items-center flex justify-center'>
-            Join Now
-          </div>
-          </a>
-          <div className='mt-5 ml-8'>
-            <a href="/login">
-              <h3 className='text-[18px] cursor-pointer font-bold text-white'>Login</h3>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className='h-auto  w-full items-center flex flex-col  bg-[#222222]'>
-        <div className='h-18 border-1 flex items-center justify-center border-[#333333] w-[62.5rem] mt-9  bg-[#212121]'>
-          <p className='text-white font-bold '>Join us live online! <span className='text-sm text-[#fc706b] font-bold'>API Design in Node.js, v5</span> <span className='font-[400]'>on Aug 13, 2025.</span></p>
+      <Navbar text='text-[#aaaaaa]' />
+      <div className='h-auto  w-full items-center flex flex-col px-5  bg-[#222222]'>
+        <div className='h-18 border-1 flex items-center justify-center border-[#333333] sm:w-[62.5rem] w-80 text-center mt-9  bg-[#212121]'>
+          <p className='text-white font-bold '>Join us live online! <br/> <span className='text-sm text-[#fc706b] font-bold'>API Design in Node.js, v5</span> <span className='font-[400]'>on Aug 13, 2025.</span></p>
         </div>
         <div className='mt-20 flex flex-col items-center justify-center'>
-          <h1 className='text-5xl font-bold text-white '>Frontend & Fullstack Engineering Courses</h1>
-          <p className='text-[16.5px] mt-5 text-white'>Not sure where to start? <span className='text-[#fc706b]'> Check out our Learning Paths!</span></p>
+          <h1 className='sm:text-5xl text-4xl px-5 text-center font-bold text-white '>Frontend & Fullstack Engineering Courses</h1>
+          <p className='sm:text-[16.5px] text-17 text-center mt-5 text-white'>Not sure where to start? <br/> <span className='text-[#fc706b]'> Check out our Learning Paths!</span></p>
         </div >
-        <div className='w-[72rem] h-14 mt-15 flex  rounded-4xl bg-[#3e3e3e]'>
-          <CgSearch color='white' size={27} className='mt-4 ml-5' />
-          <input type="text" className='w-full text-[#aaaaaa] outline-none ml-4 text-lg' placeholder='Search For Courses, language , framwork or teacher...' />
+        <div className='sm:w-[72rem] w-full  sm:h-14 h-10 sm:mt-15 mt-5 flex    rounded-4xl bg-[#3e3e3e]'>
+          <CgSearch color='white' sm:size={27} size={15} className='mt-4 sm:ml-5 ml-2' />
+          <input type="text" className='w-full text-[#aaaaaa] outline-none sm:ml-4 ml-2 sm:text-lg text-sm pr-2 ' placeholder='Search For Courses, language , framwork or teacher...' />
         </div>
-        <div className='flex justify-end w-full gap-4 pr-15'>
-          <div className='h-7 w-30 bg-[#3e3e3e] rounded  ml- mt-10 gap-3 text-sm text-[#aaaaaa] justify-center flex items-center'>Sort by Date <IoMdArrowDropdown size={20} /></div>
+        <div className='sm:block hidden flex justify-end w-full gap-4 pr-15'>
+          <div className='h-7 w-30 bg-[#3e3e3e] rounded  mt-10 gap-3 text-sm text-[#aaaaaa] justify-center flex items-center'>Sort by Date <IoMdArrowDropdown size={20} /></div>
           <IoMenu size={25} color='#aaaaaa' className='mt-10' />
         </div>
-        <div className='flex gap-10 mt-7 mb-10 px-10 flex-wrap'>
+        <div className='flex gap-10 mt-7 mb-10  flex-wrap'>
           {cards.map((card) => (
             <div key={card.id}>
               <Card
