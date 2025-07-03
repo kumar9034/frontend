@@ -12,7 +12,7 @@ const App = () => {
     <>
     
     <div className='hero h-auto w-full flex  '>
-        <img className=' relative w-full sm:h-screen h-screen  object-cover ' src="/photoHero.webp" alt="" />
+        <img className=' relative w-full sm:h-auto h-[45rem]  object-cover ' src="/photoHero.webp" alt="" />
       
       <div className='flex absolute'>
         <Navbar fixed="fixed"
