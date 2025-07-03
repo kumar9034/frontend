@@ -16,7 +16,7 @@ const App = () => {
       
       <div className='flex absolute'>
         <Navbar fixed="fixed"
-        bg='transparent'
+        bg='bg-transparent'
         text="text-[#c02d28]"/>
         <Section1/>
       </div>

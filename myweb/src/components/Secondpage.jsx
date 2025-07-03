@@ -99,7 +99,7 @@ const Secondpage = () => {
                 <div className=' sm:h-93 h-auto w-full bg-[#1f1f1f] flex flex-col pt-16 pb-10 items-center'>
                     <h1 className='sm:text-4xl text-[1.7rem] px-10 text-center  font-bold text-white '>Learn Straight from Experts Who Shape the Modern Web</h1>
                     <p className='sm:text-2xl text-[1.2rem] px-10 text-center font-bold text-white '>Our courses are taught by developers from these top companies (and more)</p>
-                    <div className=' sm:h-10 h-auto  w-full  sm:flex sm:pl-71 pl-33  mt-12'>
+                    <div className=' sm:h-10 h-auto  w-full  sm:flex sm:pl-71 pl-25  mt-12'>
                         <img className=' sm:h-10 h-10 w-40 mt-5 ' src="/microsoft.svg" alt="" />
                         <img className=' sm:h-10 h-8 w-40 mt-5' src="/netflix.svg" alt="" />
                         <img className=' sm:h-10 h-6 w-40 mt-5' src="/stripe.svg" alt="" />

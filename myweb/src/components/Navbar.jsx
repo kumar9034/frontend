@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Navbar = ({bg, fixed, text }) => {
   return (
     <div>
-      <div className={`w-full h-20 flex ${fixed} bg-[#37140f] sm:bg-${bg} `}>
+      <div className={`w-full h-20 flex ${fixed} bg-[#37140f] sm:${bg} `}>
         <div className='sm:flex'>
           <Link to='/'>
             <img
