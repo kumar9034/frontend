@@ -46,31 +46,31 @@ const Firstpage = () => {
             </div>
           </div>
         </div>
-        <div className='flex flex-wrap justify-between px-20 py-10 text-center gap-10 text-white'>
-          <div className=' w-full sm:w-1/2 lg:w-1/4'>
-            <p className='text-[55px] font-bold text-[#c44d42]'>
-              2<span className='text-[#d8532b]'>00+</span>
-            </p>
-            <p className='text-[20px] mt-2'>In-Depth Courses</p>
-          </div>
+         <div className=' sm:flex flex-wrap   pl-30 md:pl-0 py-10 justify-center items-center gap-20 text-white'>
+                <div className='feature w-[10rem]'>
+                    <p className='text-[55px] w-[2rem] font-bold text-[#c44d42]'>
+                        2<span className='text-[#d8532b]'>00+</span>
+                    </p>
+                    <p className='text-[20px]  mt-2'>In-Depth Courses</p>
+                </div>
 
-          <div className='feature w-full sm:w-1/2 lg:w-1/4'>
-            <p className='text-[55px] font-bold text-[#c44d42]'>
-              2<span className='text-[#d8532b]'>1</span>
-            </p>
-            <p className='text-[20px] mt-2'>Learning Paths</p>
-          </div>
+                <div className='feature w-[10rem]  '>
+                    <p className='text-[55px] w-[5rem] ml-4 font-bold text-[#c44d42]'>
+                        2<span className='text-[#d8532b] '>1</span>
+                    </p>
+                    <p className='text-[20px] w-[10rem] mt-2'>Learning Paths</p>
+                </div>
 
-          <div className='feature w-full sm:w-1/2 lg:w-1/4 flex flex-col items-center'>
-            <img className='h-12 mb-2' src="/star.png" alt="Star Icon" />
-            <p className='text-[18px]'>Industry Leading Experts</p>
-          </div>
+                <div className='feature w-[10rem]  text-center '>
+                    <img className='h-12 mb-2 w-[7rem] h-[4rem] ml-3'  src="/star.png" alt="Star Icon" />
+                    <p className='text-[18px] w-[10rem]'>Industry Leading Experts</p>
+                </div>
 
-          <div className='feature w-full sm:w-1/2 lg:w-1/4 flex flex-col items-center'>
-            <img className='h-14 mb-2' src="/interactive.webp" alt="Workshop Icon" />
-            <p className='text-[18px]'>Live Interactive Workshops</p>
-          </div>
-        </div>
+                <div className='feature w-[10rem] flex flex-col justify-center items-center'>
+                    <img className='h-14  w-[7rem] h-[5rem]' src="/interactive.webp" alt="Workshop Icon" />
+                    <p className='text-[18px] w-[10rem] text-center'>Live Interactive Workshops</p>
+                </div>
+            </div>
 
 
         <div className=' h-screen w-full sm:flex  justify-center bg-[#333333] '>
@@ -139,14 +139,14 @@ const Firstpage = () => {
             <img className='sm:pt-13 pt-5 sm:pr-16 pl-5 pr-5' src="/profile.png" alt="" />
           </div>
         </div>
-        <div className=' sm:h-93 h-auto sm:w-full  bg-[#1f1f1f] flex flex-col pt-16  pb-5 items-center px-5 text-center'>
+        <div className=' sm:h-93 h-auto max-w-full mx-auto  bg-[#1f1f1f] flex flex-col pt-16  pb-5 items-center px-5 text-center'>
           <h1 className='sm:text-4xl text-2xl font-bold text-white '>Learn Straight from Experts Who Shape the Modern Web</h1>
           <p className='sm:text-2xl text-xl font-bold text-white '>200+ Courses Curated into 18 Learning Paths</p>
-          <div className=' sm:h-10 h-auto sm:w-full sm:ml-40    sm:flex sm:pl-71 gap-10 mt-12'>
+          <div className=' sm:h-10 h-auto max-w-[100%] mx-auto sm:ml-10     sm:flex  gap-5 mt-12'>
             <img className='h-10 sm:w-40 w-50 ' src="/microsoft.svg" alt="" />
-            <img className='h-10 sm:w-40 w-48 mt-5' src="/netflix.svg" alt="" />
-            <img className='h-10 sm:w-40 w-46 mt-5' src="/stripe.svg" alt="" />
-            <img className='h-10 sm:w-40 w-44 mt-5' src="/spotify.svg" alt="" />
+            <img className='h-10 sm:w-40 w-48 md:mt-5' src="/netflix.svg" alt="" />
+            <img className='h-10 sm:w-40 w-46 md:mt-5' src="/stripe.svg" alt="" />
+            <img className='h-10 sm:w-40 w-44 md:mt-5' src="/spotify.svg" alt="" />
           </div>
         <Link to="/pricing">
           <div className=' h-10 sm:w-35 w-70 bg-red-600 rounded-2xl cursor-pointer mt-15 flex justify-center py-2  text-[15px] text-white'>join now</div>

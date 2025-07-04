@@ -35,7 +35,7 @@ const Section3 = () => {
                 </div>
             </div>
 
-            <div className=' sm:flex flex-wrap   px-20 py-10  gap-20 text-white'>
+            <div className=' sm:flex flex-wrap   pl-30 md:pl-0 py-10 justify-center items-center gap-20 text-white'>
                 <div className='feature w-[10rem]'>
                     <p className='text-[55px] w-[2rem] font-bold text-[#c44d42]'>
                         2<span className='text-[#d8532b]'>00+</span>
@@ -55,9 +55,9 @@ const Section3 = () => {
                     <p className='text-[18px] w-[10rem]'>Industry Leading Experts</p>
                 </div>
 
-                <div className='feature w-[10rem] text-center'>
+                <div className='feature w-[10rem] flex flex-col justify-center items-center'>
                     <img className='h-14  w-[7rem] h-[5rem]' src="/interactive.webp" alt="Workshop Icon" />
-                    <p className='text-[18px] w-[10rem]'>Live Interactive Workshops</p>
+                    <p className='text-[18px] w-[10rem] text-center'>Live Interactive Workshops</p>
                 </div>
             </div>
 
