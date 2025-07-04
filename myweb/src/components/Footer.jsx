@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <div className=' h-auto w-full  '>
-        <div className=' h-auto w-full  flex-col sm:flex-row sm:items-start  bg-[#000000] pr-10 sm:pl-15 pt-12 '>
+        <div className=' h-auto w-full  flex-col sm:flex-row sm:items-start pl-5  bg-[#000000] pr-10 sm:pl-15 pt-12 '>
             <div className=' flex sm:ml-[80%]  gap-3'>
             <FaSquareXTwitter />
             <img className='h-9 w-10 '  src="/twitter.svg" alt="" />

@@ -103,8 +103,8 @@ const Courses = () => {
   return (
     <div>
       <Navbar text='text-[#aaaaaa]' />
-      <div className='h-auto  w-full items-center flex flex-col px-5  bg-[#222222]'>
-        <div className='h-18 border-1 flex items-center justify-center border-[#333333] sm:w-[62.5rem] w-80 text-center mt-9  bg-[#212121]'>
+      <div className='h-auto  max-w-full mx-auto  flex flex-col px-5  bg-[#222222]'>
+        <div className='h-18 border-1 flex items-center justify-center border-[#333333] sm:w-[62.5rem] max-w-[50rem] mx-auto text-center mt-9  bg-[#212121]'>
           <p className='text-white font-bold '>Join us live online! <br /> <span className='text-sm text-[#fc706b] font-bold'>API Design in Node.js, v5</span> <span className='font-[400]'>on Aug 13, 2025.</span></p>
         </div>
         <div className='mt-20 flex flex-col items-center justify-center'>
@@ -124,7 +124,7 @@ const Courses = () => {
           <div className='h-7 w-30 bg-[#3e3e3e] rounded  mt-10 gap-3 text-sm text-[#aaaaaa] justify-center flex items-center'>Sort by Date <IoMdArrowDropdown size={20} /></div>
           <IoMenu size={25} color='#aaaaaa' className='mt-10' />
         </div>
-        <div className='flex gap-10 mt-7 mb-10  flex-wrap'>
+        <div className="grid grid-cols-1 sm:grid-cols-2 flex gap-6 mt-7 pr-10 mb-10">
           {cards.map((card) => (
             <div key={card.id}>
               <Card
@@ -138,6 +138,7 @@ const Courses = () => {
             </div>
           ))}
         </div>
+
 
       </div>
       <Footer />
