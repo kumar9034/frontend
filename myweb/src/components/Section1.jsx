@@ -22,8 +22,8 @@ const Section1 = () => {
             </div>
           </div >
 
-          <div className='sm:block hidden contain-description  w-[50%]'>
-            <div className='h-40 w-[30rem] bg-[#020303] mt-[33rem] ml-10'>
+          <div className='xl:block hidden contain-description  :w-[50%]  '>
+            <div className='h-40 w-[30rem] bg-[#020303] mt-[33rem] md:ml-10 ml-5'>
               <div className='h-20 w-100 text-white pl-5 text-[17px] pt-5'>
                 <p>Focus on HTML, CSS, and JavaScript fundamentals. They're the browser bedrock that'll keep your career solid, not fleeting technologies.</p>
 

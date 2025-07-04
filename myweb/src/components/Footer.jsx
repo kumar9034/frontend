@@ -19,7 +19,7 @@ const Footer = () => {
                 <img src="/playstore.svg" alt="" />
                 </div>
             </div>
-            <div className=' sm:flex justify-between mt-8 '>
+            <div className=' xl:flex justify-between mt-8 '>
                 <div className='list sm:flex sm:gap-10'>
                 <p className='text-sm text-[#aaaaaa]'>Courses</p>
                 <p className='text-sm text-[#aaaaaa]'>Learn</p>
@@ -35,7 +35,7 @@ const Footer = () => {
 
                 </div>
                 <div>
-                    <p className='contact text-sm text-[#aaaaaa]'>Contact: support@frontendmasters.com</p>
+                    <p className='contact mt-5 xl:mt-0 text-sm text-[#aaaaaa]'>Contact: support@frontendmasters.com</p>
                 </div>
             </div>
             <div className='border-1 border-[#aaaaaa] w-full mt-8'></div>
