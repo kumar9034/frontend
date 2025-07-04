@@ -5,6 +5,7 @@ import { LuUser } from "react-icons/lu";
 import Footer from '../Footer';
 import { LuUsers } from "react-icons/lu";
 import Navbar from '../Navbar';
+import Question from '../Question';
 
 const Pricing = () => {
     return (
@@ -134,6 +135,7 @@ const Pricing = () => {
                         </div>
                     </div>
                 </div>
+                <Question/>
                 <Footer />
             </div>
         </div>

@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FaSearch } from "react-icons/fa";
 import { MdMenu } from "react-icons/md";
 import { Link } from 'react-router-dom';
+import Menubar from './Menubar';
 
 const Navbar = ({bg, fixed, text }) => {
+  const [openPanel, setOpenPannel]= useState(false)
+
+    const pannel = ()=>{
+        setOpenPannel(true)
+    }
   return (
     <div>
       <div className={`w-full  h-20 flex ${fixed} bg-[#37140f] pr-5 sm:${bg} `}>
@@ -13,8 +19,8 @@ const Navbar = ({bg, fixed, text }) => {
               className='logo h-[45%] w-[80%] ml-10 mt-3 mr-10 '
               src="/logo.svg" alt="" />
           </Link>
-          <div className='ml-10 block sm:hidden'>
-            <MdMenu color='white' size={26} />
+          <div className='ml-10 block sm:hidden cursor-pointer'>
+            <MdMenu color='white' size={26} onClick={pannel} />
           </div>
         </div>
         <div className='hidden sm:block sm:flex mt-4  ml-8 gap-10'>
@@ -49,6 +55,7 @@ const Navbar = ({bg, fixed, text }) => {
           </div>
         </div>
       </div>
+      <Menubar openPanel={openPanel} setOpenPannel={setOpenPannel} />
     </div>
   )
 }
