@@ -139,14 +139,14 @@ const Firstpage = () => {
             <img className='sm:pt-13 pt-5 sm:pr-16 pl-5 pr-5' src="/profile.png" alt="" />
           </div>
         </div>
-        <div className=' sm:h-93 h-auto max-w-full mx-auto  bg-[#1f1f1f] flex flex-col pt-16  pb-5 items-center px-5 text-center'>
+        <div className=' sm:h-93 h-auto max-w-full mx-auto  bg-[#1f1f1f] flex flex-col pt-16  pb-5 items-center  px-5 text-center'>
           <h1 className='sm:text-4xl text-2xl font-bold text-white '>Learn Straight from Experts Who Shape the Modern Web</h1>
           <p className='sm:text-2xl text-xl font-bold text-white '>200+ Courses Curated into 18 Learning Paths</p>
-          <div className=' sm:h-10 h-auto max-w-[100%] mx-auto sm:ml-10     sm:flex  gap-5 mt-12'>
+          <div className=' sm:h-10 h-auto max-w-[60rem] mx-auto  sm:ml-60  justify-center items-center    sm:flex  gap-5 mt-12'>
             <img className='h-10 sm:w-40 w-50 ' src="/microsoft.svg" alt="" />
-            <img className='h-10 sm:w-40 w-48 md:mt-5' src="/netflix.svg" alt="" />
-            <img className='h-10 sm:w-40 w-46 md:mt-5' src="/stripe.svg" alt="" />
-            <img className='h-10 sm:w-40 w-44 md:mt-5' src="/spotify.svg" alt="" />
+            <img className='h-10 sm:w-40 w-48 mt-5' src="/netflix.svg" alt="" />
+            <img className='h-10 sm:w-40 w-46 mt-5' src="/stripe.svg" alt="" />
+            <img className='h-10 sm:w-40 w-44 mt-5' src="/spotify.svg" alt="" />
           </div>
         <Link to="/pricing">
           <div className=' h-10 sm:w-35 w-70 bg-red-600 rounded-2xl cursor-pointer mt-15 flex justify-center py-2  text-[15px] text-white'>join now</div>

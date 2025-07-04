@@ -17,7 +17,7 @@ const Tutorial = () => {
         id: 1,
         name: 'Web Dev Simplified',
         title: "Vitest Crash Course",
-        image: "./public/thumb-270.webp",
+        image: "/thumb-270.webp",
         language: "Testing",
         language2: "React"
     },
@@ -25,7 +25,7 @@ const Tutorial = () => {
         id: 2,
         name: 'Web Dev Simplified',
         title: "Concurrency in a Go web application",
-        image: "./public/thumb-270 (1).webp",
+        image: "/thumb-270 (1).webp",
         language: "Go",
         language2: "REACT"
 
@@ -34,7 +34,7 @@ const Tutorial = () => {
         id: 3,
         name: ' Melkey',
         title: "Concurrency Locking & SQL Query Timeouts in Golang",
-        image: "./public/thumb-270 (3).webp",
+        image: "/thumb-270 (3).webp",
         language: "DATABASE",
         language2: "GO"
     },
@@ -42,7 +42,7 @@ const Tutorial = () => {
         id: 4,
         name: 'Web Dev Simplified',
         title: "Strategies for margins, padding, gaps, and more",
-        image: "./public/thumb-270.webp",
+        image: "/thumb-270.webp",
         language: "CSS",
         language2: "Javascript"
     }]
@@ -58,7 +58,7 @@ const Tutorial = () => {
         id: 2,
         name: 'Web Dev Simplified',
         title: "How To Handle Internationalization Like A...",
-        image: "./public/thumb-270 (6).webp",
+        image: "/thumb-270 (6).webp",
         language: "Typescript",
         language2: "javascript"
 
@@ -67,7 +67,7 @@ const Tutorial = () => {
         id: 3,
         name: 'Kevin Powell',
         title: "5 CSS Secrets every developer should know",
-        image: "./public/thumb-270 (7).webp",
+        image: "/thumb-270 (7).webp",
         language: "Creative Coding",
         language2: "CSS"
     },
@@ -75,7 +75,7 @@ const Tutorial = () => {
         id: 4,
         name: 'Kevin Powell',
         title: "Create a clean, modern navigation with HTML",
-        image: "./public/thumb-270 (8).webp",
+        image: "/thumb-270 (8).webp",
         language: "CSS",
         language2: "Javascript"
     }]
@@ -84,7 +84,7 @@ const Tutorial = () => {
         id: 1,
         name: 'Maximiliano Firtman',
         title: "JavaScript Promises from Scratch",
-        image: "./public/thumb-270 (5).webp",
+        image: "/thumb-270 (5).webp",
         language: "APIs",
         language2: "Javascript"
     },
@@ -92,7 +92,7 @@ const Tutorial = () => {
         id: 2,
         name: 'Web Dev Simplified',
         title: "Stop Writing Bad Abstractions - Clean Code...",
-        image: "./public/thumb-270 (9).webp",
+        image: "/thumb-270 (9).webp",
         language: "React",
         language2: "javascript"
 
@@ -101,7 +101,7 @@ const Tutorial = () => {
         id: 3,
         name: 'Kevin Powell',
         title: "Make an animated glowing border effect with CSS",
-        image: "./public/thumb-270 (10).webp",
+        image: "/thumb-270 (10).webp",
         language: "Creative Coding",
         language2: "CSS"
     },
@@ -109,7 +109,7 @@ const Tutorial = () => {
         id: 4,
         name: 'Web Dev Simplified',
         title: "How To Load Images Like A Pro",
-        image: "./public/thumb-270 (11).webp",
+        image: "/thumb-270 (11).webp",
         language: "Performance",
         language2: "Javascript"
     }]
@@ -118,7 +118,7 @@ const Tutorial = () => {
         id: 1,
         name: 'Kevin Powell',
         title: "5 CSS Secrets every developer should know",
-        image: "./public/thumb-270 (12).webp",
+        image: "/thumb-270 (12).webp",
         language: "creative coding",
         language2: "CSS"
     },
@@ -126,7 +126,7 @@ const Tutorial = () => {
         id: 2,
         name: 'Kevin Powell',
         title: "Animate height: auto with interpolate-size and calc-",
-        image: "./public/thumb-270 (13).webp",
+        image: "/thumb-270 (13).webp",
         language: "Creative",
         language2: "CSS"
 
@@ -135,7 +135,7 @@ const Tutorial = () => {
         id: 3,
         name: 'Kevin Powell',
         title: "Can I clone this rotating, gradient, inner glow effect?",
-        image: "./public/thumb-270 (14).webp",
+        image: "/thumb-270 (14).webp",
         language: "Creative Coding",
         language2: "CSS"
     },
@@ -143,7 +143,7 @@ const Tutorial = () => {
         id: 4,
         name: 'Kevin Powell',
         title: "Create a Frosted Glass Effect with a Gradient Border",
-        image: "./public/thumb-270 (15).webp",
+        image: "/thumb-270 (15).webp",
         language: "Performance",
         language2: "Javascript"
     }]
@@ -152,7 +152,7 @@ const Tutorial = () => {
         id: 1,
         name: ' Web Dev Simplified',
         title: "Debounce vs Throttle",
-        image: "./public/thumb-270 (16).webp",
+        image: "/thumb-270 (16).webp",
         language: "Performance",
         language2: "JavaScript"
     },
@@ -160,7 +160,7 @@ const Tutorial = () => {
         id: 2,
         name: 'Web Dev Simplified',
         title: "How To Create A Search Bar In JavaScript",
-        image: "./public/thumb-270 (17).webp",
+        image: "/thumb-270 (17).webp",
         language: "Javascript",
         language2: "HTML"
 
@@ -169,7 +169,7 @@ const Tutorial = () => {
         id: 3,
         name: 'Web Dev Simplified',
         title: "How To Create An Animated Image Carousel With",
-        image: "./public/thumb-270 (18).webp",
+        image: "/thumb-270 (18).webp",
         language: "Javascript",
         language2: "CSS"
     },
@@ -177,7 +177,7 @@ const Tutorial = () => {
         id: 4,
         name: 'Chris Coyier',
         title: "Image Gallery Web Component - Part 1",
-        image: "./public/thumb-270 (19).webp",
+        image: "/thumb-270 (19).webp",
         language: "CSS",
         language2: "Javascript"
     }]
@@ -185,7 +185,7 @@ const Tutorial = () => {
         <div>
             <Navbar text='text-[#aaaaaa]' />
             <div className='w-ful h-auto flex flex-col  items-center pt-2 px-10 md:px-0 bg-[#222222]'>
-                <img className='h-26 w-18' src="./public/cookes.png" alt="" />
+                <img className='h-26 w-18' src="/cookes.png" alt="" />
                 <div>
                     <h1 className='sm:text-5xl text-4xl text-center  text-white font-bold'>Snackable Tutorials from Creators </h1>
                     <h1 className='sm:text-5xl text-4xl text-white text-center sm:ml-8  sm:mt-4 font-bold'>Who are Masters of Their Craft</h1>
@@ -202,44 +202,44 @@ const Tutorial = () => {
 
                 <div className='sm:h-20 sm:w-full w-full  mt-7 overflow-auto no-scrollbar  gap-3 sm:pl-10 pl-5 pr-5 flex '>
                     <div className='border-1 flex gap-1  border-[#333333] justify-center items-center bg-[#222222] text-white h-10 px-4 w-auto'>
-                        <img className='h-6 w-6 ' src="./public/css (1).svg" alt="" />
+                        <img className='h-6 w-6 ' src="/css (1).svg" alt="" />
                         <p>CSS</p>
                     </div>
                     <div className='border-1 flex gap-1  border-[#333333] justify-center items-center bg-[#222222] text-white h-10 p-4 w-auto'>
-                        <img className='h-6 w-6 ' src="./public/javascript.svg" alt="" />
+                        <img className='h-6 w-6 ' src="/javascript.svg" alt="" />
                         <p>Javascript</p>
                     </div>
                     <div className='border-1 flex gap-1  border-[#333333] justify-center items-center bg-[#222222] text-white h-10 p-4 w-auto'>
-                        <img className='h-6 w-6 ' src="./public/go.svg" alt="" />
+                        <img className='h-6 w-6 ' src="/go.svg" alt="" />
                         <p>Go</p>
                     </div>
 
                     <div className=' border-1 flex gap-1  border-[#333333] justify-center items-center bg-[#222222] text-white h-10 p-4 w-auto'>
-                        <img className='h-6 w-6 ' src="./public/typescript.svg" alt="" />
+                        <img className='h-6 w-6 ' src="/typescript.svg" alt="" />
                         <p>TypeScript</p>
                     </div>
                     <div className='border-1 flex gap-1  border-[#333333] justify-center items-center bg-[#222222] text-white h-10 p-4 w-auto'>
-                        <img className='h-6 w-6 ' src="./public/html.svg" alt="" />
+                        <img className='h-6 w-6 ' src="/html.svg" alt="" />
                         <p>HTML</p>
                     </div>
                     <div className=' border-1 flex gap-1  border-[#333333] justify-center items-center bg-[#222222] text-white h-10 p-4 w-auto'>
-                        <img className='h-6 w-6 ' src="./public/Rt.svg" alt="" />
+                        <img className='h-6 w-6 ' src="/Rt.svg" alt="" />
                         <p>React</p>
                     </div>
                     <div className=' border-1 flex gap-1  border-[#333333] justify-center items-center bg-[#222222] text-white h-10 p-4 w-auto'>
-                        <img className='h-6 w-6 ' src="./public/algorithms.svg" alt="" />
+                        <img className='h-6 w-6 ' src="/algorithms.svg" alt="" />
                         <p>Algorithms</p>
                     </div>
                     <div className=' border-1 flex gap-1  border-[#333333] justify-center items-center bg-[#222222] text-white h-10 p-4 w-auto'>
-                        <img className='h-6 w-6 ' src="./public/apis.svg" alt="" />
+                        <img className='h-6 w-6 ' src="/apis.svg" alt="" />
                         <p>APIs</p>
                     </div>
                     <div className=' border-1 flex gap-1  border-[#333333] justify-center items-center bg-[#222222] text-white h-10 p-4 w-auto'>
-                        <img className='h-6 w-6 ' src="./public/node.svg" alt="" />
+                        <img className='h-6 w-6 ' src="/node.svg" alt="" />
                         <p>Node.js</p>
                     </div>
                     <div className=' border-1 flex gap-1  border-[#333333] justify-center items-center bg-[#222222] text-white h-10 p-4 w-auto'>
-                        <img className='h-6 w-6 ' src="./public/testing.svg" alt="" />
+                        <img className='h-6 w-6 ' src="/testing.svg" alt="" />
                         <p>Testing</p>
                     </div>
 
@@ -247,7 +247,7 @@ const Tutorial = () => {
             </div>
             <div className='h-auto flex justify-center pb-10 px-5  w-full bg-[#222222] pt-15  '>
                 <div className='sm:h-65 h-[30rem] sm:w-[74rem] w-full sm:flex  justify-between bg-gradient-to-r from-[#052749] via-[#052749] to-[#070216]" '>
-                    <img className='sm:h-65 sm:w-[30rem] w-full' src="./public/thumb-1080.webp" alt="" />
+                    <img className='sm:h-65 sm:w-[30rem] w-full' src="/thumb-1080.webp" alt="" />
                     <div className=' max-w-[70rem] mx-auto sm:h-full h-auto sm:px-10 px-5 pt-5'>
                         <div className='flex gap-1'>
                             <FaRegChessQueen size={20} color='#e6682d' />

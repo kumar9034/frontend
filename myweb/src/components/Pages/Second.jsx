@@ -10,7 +10,7 @@ const Second = () => {
   return (
     <>
       <Navbar fixed="" bg='#37140f' text='text-[#aaaaaa]'/>
-      <div className='h-auto w-full bg-[#222222]'>
+      <div className='h-auto w-full px-5 bg-[#222222]'>
         <div className='flex flex-col gap-5 pt-12 justify-center items-center '>
           <img src="/path.svg" alt="" />
           <h1 className='sm:text-5xl text-5xl  text-white font-bold '>Learning Paths</h1>
@@ -159,7 +159,7 @@ const Second = () => {
           {/* Right Icon Section */}
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-2">
-              <img src="./public/star.png" alt="star" className="w-15 h-10" />
+              <img src="/star.png" alt="star" className="w-15 h-10" />
               <p className="text-[15px]">Industry Leading Experts</p>
             </div>
             <div className="flex items-center gap-2">

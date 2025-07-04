@@ -38,9 +38,9 @@ const CourseCard = ({ title, description, duration ,image, color, gradientFrom, 
   const strokeDashoffset = 100 - percentage;
 
   return (
-    <div className="bg-[#2a2a2a] text-white rounded-lg p-6 w-[350px] mx-auto shadow-lg text-center">
+    <div className="bg-[#2a2a2a] text-white rounded-lg p-6 max-w-[21rem] mx-auto mx-auto shadow-lg text-center">
       {/* Circular Progress */}
-      <img className='absolute ml-25 mt-10' src={image} alt="" />
+      <img className='absolute ml-25  mt-10' src={image} alt="" />
       <div className="relative w-45 h-45 mx-auto mb-6">
         <svg className="w-full h-full" viewBox="0 0 36 36">
           <path
