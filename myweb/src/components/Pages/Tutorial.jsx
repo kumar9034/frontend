@@ -50,7 +50,7 @@ const Tutorial = () => {
         id: 1,
         name: 'Maximiliano Firtman',
         title: "JavaScript Promises from Scratch",
-        image: "./public/thumb-270 (5).webp",
+        image: "/thumb-270 (5).webp",
         language: "APIs",
         language2: "Javascript"
     },
