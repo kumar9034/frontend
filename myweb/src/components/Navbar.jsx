@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Navbar = ({bg, fixed, text }) => {
   return (
     <div>
-      <div className={`w-full h-20 flex ${fixed} bg-[#37140f] sm:${bg} `}>
+      <div className={`w-full  h-20 flex ${fixed} bg-[#37140f] pr-5 sm:${bg} `}>
         <div className='sm:flex'>
           <Link to='/'>
             <img
@@ -17,7 +17,7 @@ const Navbar = ({bg, fixed, text }) => {
             <MdMenu color='white' size={26} />
           </div>
         </div>
-        <div className='hidden sm:block sm:flex mt-4  ml-3 gap-10'>
+        <div className='hidden sm:block sm:flex mt-4  ml-8 gap-10'>
           <Link to="/feature">
             <h3 className={`font-bold ${text} text-[16px] cursor-pointer`}>Features</h3>
           </Link>

@@ -35,29 +35,29 @@ const Section3 = () => {
                 </div>
             </div>
 
-            <div className=' sm:flex flex-wrap  justify-between px-20 py-10 text-center gap-5 text-white'>
-                <div className='feature w-full sm:w-1/2 lg:w-1/4'>
-                    <p className='text-[55px] font-bold text-[#c44d42]'>
+            <div className=' sm:flex flex-wrap   px-20 py-10  gap-20 text-white'>
+                <div className='feature w-[10rem]'>
+                    <p className='text-[55px] w-[2rem] font-bold text-[#c44d42]'>
                         2<span className='text-[#d8532b]'>00+</span>
                     </p>
-                    <p className='text-[20px] mt-2'>In-Depth Courses</p>
+                    <p className='text-[20px]  mt-2'>In-Depth Courses</p>
                 </div>
 
-                <div className='feature w-full sm:w-1/2 lg:w-1/4'>
-                    <p className='text-[55px] font-bold text-[#c44d42]'>
-                        2<span className='text-[#d8532b]'>1</span>
+                <div className='feature w-[10rem]  '>
+                    <p className='text-[55px] w-[5rem] ml-4 font-bold text-[#c44d42]'>
+                        2<span className='text-[#d8532b] '>1</span>
                     </p>
-                    <p className='text-[20px] mt-2'>Learning Paths</p>
+                    <p className='text-[20px] w-[10rem] mt-2'>Learning Paths</p>
                 </div>
 
-                <div className='feature w-full sm:w-1/2 lg:w-1/4 flex flex-col items-center'>
-                    <img className='h-12 mb-2' src="/star.png" alt="Star Icon" />
-                    <p className='text-[18px]'>Industry Leading Experts</p>
+                <div className='feature w-[10rem]  text-center '>
+                    <img className='h-12 mb-2 w-[7rem] h-[4rem] ml-3'  src="/star.png" alt="Star Icon" />
+                    <p className='text-[18px] w-[10rem]'>Industry Leading Experts</p>
                 </div>
 
-                <div className='feature w-full sm:w-1/2 lg:w-1/4 flex flex-col items-center'>
-                    <img className='h-14 mb-2' src="/interactive.webp" alt="Workshop Icon" />
-                    <p className='text-[18px]'>Live Interactive Workshops</p>
+                <div className='feature w-[10rem] text-center'>
+                    <img className='h-14  w-[7rem] h-[5rem]' src="/interactive.webp" alt="Workshop Icon" />
+                    <p className='text-[18px] w-[10rem]'>Live Interactive Workshops</p>
                 </div>
             </div>
 
