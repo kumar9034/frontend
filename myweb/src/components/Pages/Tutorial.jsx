@@ -271,7 +271,7 @@ const Tutorial = () => {
                     </div>
                 </div>
                 <div className='border-1 max-w-[74rem] mx-auto border-[#3e3e3e] sm:ml-10 ml-5 mt-4'></div>
-                <div className='flex gap-5 sm:pl-10 pl-5 overflow-x-scroll no-scrollbar sm:overflow-hidden '>
+                <div className='flex gap-5 sm:pl-10 pl-5 overflow-auto no-scrollbar '>
                     {cards.map((item) => (<div key={item.id}>
                         <Secondcard
                             image={item.image}
